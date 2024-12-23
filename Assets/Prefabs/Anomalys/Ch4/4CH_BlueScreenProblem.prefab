@@ -78,6 +78,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BSOD_Plane_Middle
       objectReference: {fileID: 0}
+    - target: {fileID: 8243112027871632964, guid: 115d750ae29c97047bf433e219526a85,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -324,6 +329,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104472343968562740, guid: 80d8f7e7b43534b32916a2583ad4b309,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4945969458071903377, guid: 80d8f7e7b43534b32916a2583ad4b309,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040572382108546941, guid: 80d8f7e7b43534b32916a2583ad4b309,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 80d8f7e7b43534b32916a2583ad4b309,
         type: 3}
