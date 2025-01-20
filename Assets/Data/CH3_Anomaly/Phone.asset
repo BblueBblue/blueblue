@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Phone
   m_EditorClassIdentifier: 
   type: 8
+  anomalyName: Phone
   problemPrefab: {fileID: 6290999848120122900, guid: c88748a481a5a614ebaa4a7471bde3c6,
     type: 3}

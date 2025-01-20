@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Anomaly;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Book
@@ -9,8 +10,14 @@ namespace Book
     public class PageScriptableObject : ScriptableObject
     {
         public AnomalyType anomalyType;
-        public string anomalyName;
+        public AnomalyScriptableObject anomalyData;
+        [Title("Photo")]
+        [HideLabel]
+        [PreviewField(256)]
         public Sprite photo;
+        [Title("Description")]
+        [HideLabel]
+        [MultiLineProperty]
         public string description;
     }
 }

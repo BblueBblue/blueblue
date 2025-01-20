@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Bug
   m_EditorClassIdentifier: 
   type: 8
+  anomalyName: Bug
   problemPrefab: {fileID: 6580940162622401731, guid: 5fb974a18aad6b241b5e5e11506a8495,
     type: 3}

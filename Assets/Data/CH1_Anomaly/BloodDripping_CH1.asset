@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: BloodDripping_CH1
   m_EditorClassIdentifier: 
   type: 2
+  anomalyName: BloodDripping_CH1
   problemPrefab: {fileID: 7159709632291542350, guid: 5dc6d767fdd9b6e4e9f72ef9e34b0cc0,
     type: 3}

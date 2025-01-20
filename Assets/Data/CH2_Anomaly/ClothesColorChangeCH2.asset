@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ClothesColorChangeCH2
   m_EditorClassIdentifier: 
   type: 4
+  anomalyName: ClothesColorChangeCH2
   problemPrefab: {fileID: 7860167187485030483, guid: f3447f7f224477249a0e89df8c84b00f,
     type: 3}

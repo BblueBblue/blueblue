@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ArmyTrumpet
   m_EditorClassIdentifier: 
   type: 8
+  anomalyName: ArmyTrumpet
   problemPrefab: {fileID: 989685759013203694, guid: bfc0f11161d6e9547b36eb17b27cac00,
     type: 3}

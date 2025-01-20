@@ -46,8 +46,8 @@ namespace Book
                 {
                     // 페이지 설정
                     pageSetters[pageSetterIdx].InitPage(pageData);
-                    pageSetters[pageSetterIdx].gameObject.name = pageData.anomalyName;
-                    pages.Add(pageData.anomalyName, pageSetters[pageSetterIdx]);
+                    pageSetters[pageSetterIdx].gameObject.name = pageData.anomalyData.anomalyName;
+                    pages.Add(pageData.anomalyData.anomalyName, pageSetters[pageSetterIdx]);
                     pageSetterIdx++;
                 }
             }

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Dark
   m_EditorClassIdentifier: 
   type: 2
+  anomalyName: Dark
   problemPrefab: {fileID: 2073365777762797856, guid: 39e1d7a9ef8065549a875e8dfb3e78ac,
     type: 3}

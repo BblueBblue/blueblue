@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SamplePage 3
   m_EditorClassIdentifier: 
   anomalyType: 2
-  anomalyName: ToyTrack
+  anomalyData: {fileID: 11400000, guid: 453867798517f3d47a6ffac49b24e32b, type: 2}
   photo: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   description: sample3

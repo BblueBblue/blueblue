@@ -1,4 +1,0 @@
-Support Unity version 2019.4.36 and above.
-Support Universal RP 7.7.1 and above.
-
-To use this pack with URP extract the URP.unitypackage file which can be found at the Assets/QA_PoliceStation/ folder.

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using com.kleberswf.lib.core;
 using Sirenix.OdinInspector;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -23,6 +24,7 @@ namespace System.Interaction
         private KeyCode stopInteractKeyCode;
         [SerializeField] 
         private LayerMask interactionLayer;
+        [ShowInInspector]
         private IInteractable currentInteractable;
         private IInteractable selectInteractable;
 
@@ -44,26 +46,35 @@ namespace System.Interaction
         {
             base.Persistent = false;
             InitVariables();
+
+            var text = hoverImage.GetComponentInChildren<TMP_Text>();
+            if (text != null)
+            {
+                text.text = startInteractKeyCode.ToString();
+            }
+            
+            hoverImage.gameObject.SetActive(false);
         }
 
         private void Update()
         {
+            if (Input.GetKeyDown(stopInteractKeyCode))
+            {
+                StopInteract();
+            }
+         
             GetInteractableObject();
             if (currentInteractable != null)
             {
-                hoverImage.enabled = true;
+                hoverImage.gameObject.SetActive(true);
                 if (Input.GetKeyDown(startInteractKeyCode))
                 {
                     StartInteract();
                 }
-                else if (Input.GetKeyDown(stopInteractKeyCode))
-                {
-                    StopInteract();
-                }
             }
             else
             {
-                hoverImage.enabled = false;
+                hoverImage.gameObject.SetActive(false);
             }
             
             Debug.DrawLine(mainCamera.transform.position, mainCamera.transform.position + mainCamera.transform.forward * interactDistance, Color.red);
@@ -85,6 +96,10 @@ namespace System.Interaction
             if (Physics.Raycast(ray, out hit, interactDistance, interactionLayer))
             {
                 currentInteractable = hit.transform.GetComponent<IInteractable>();
+            }
+            else
+            {
+                currentInteractable = null;
             }
         }
 

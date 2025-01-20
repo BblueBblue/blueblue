@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Poor
   m_EditorClassIdentifier: 
   type: 8
+  anomalyName: Poor
   problemPrefab: {fileID: 2492258902431692959, guid: f468027f4c7781349b45e361c00f7c18,
     type: 3}

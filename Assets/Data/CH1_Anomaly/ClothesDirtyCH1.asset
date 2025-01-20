@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ClothesDirtyCH1
   m_EditorClassIdentifier: 
   type: 2
+  anomalyName: ClothesDirtyCH1
   problemPrefab: {fileID: 9032146686562421353, guid: a1b079594af64b74c94027b1b636c6fb,
     type: 3}
