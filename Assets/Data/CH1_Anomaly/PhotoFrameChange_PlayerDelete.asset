@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f203724ba6357488c4885f3259eb57, type: 3}
   m_Name: PhotoFrameChange_PlayerDelete
   m_EditorClassIdentifier: 
-  type: 0
-  problemPrefab: {fileID: 0}
+  type: 2
+  anomalyName: PhotoFrameChange_PlayerDelete
+  problemPrefab: {fileID: 3618712618490577782, guid: 2498ad3373caf2f4e898f75d41be46c4,
+    type: 3}

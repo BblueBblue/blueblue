@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f203724ba6357488c4885f3259eb57, type: 3}
   m_Name: PhotoframeChange_Divorce
   m_EditorClassIdentifier: 
-  type: 0
-  problemPrefab: {fileID: 0}
+  type: 2
+  anomalyName: PhotoframeChange_Divorce
+  problemPrefab: {fileID: 7274315539320045932, guid: 28042b17a27cd7c469f2478b1203bdb0,
+    type: 3}
