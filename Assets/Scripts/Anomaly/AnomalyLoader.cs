@@ -94,8 +94,7 @@ namespace Anomaly
                     {
                         // 엔딩 출력
                         Transform spawnTransform = currentProblemMap.loadTransform;
-                        GameObject endingMap = Instantiate(endingHall, spawnTransform);
-                        endingMap.transform.localPosition += new Vector3(0, 0, -3);
+                        GameObject endingMap = Instantiate(endingHall, spawnTransform.position, new Quaternion(0,0,0,0));
                         
                         // 문 여는 애니메이션 실행.
                         var door = currentProblemMap.mainDoor;
