@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: FallBody
   m_EditorClassIdentifier: 
   type: 4
+  anomalyName: FallBody
   problemPrefab: {fileID: 4728878070636861511, guid: c1c66c8084e34974f9792c99e9e156e5,
     type: 3}

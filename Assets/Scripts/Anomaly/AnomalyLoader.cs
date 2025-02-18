@@ -37,17 +37,18 @@ namespace Anomaly
             {
                 stageThreshold = 4;
             }
+        }
 
-            stageIdx = 0;
+        public void SetAnomaly(int stageIdx)
+        {
+            this.stageIdx = stageIdx;
             stageFloor = 1;
             sequenceProblem = 1;
             currentMapIdx = -1;
-            int maxNumOfProblems = 0;
-            for (int i = 0; i < stages.Count; i++)
-            {
-                maxNumOfProblems= Math.Max(maxNumOfProblems, stages[i].problems.Count);
-            }
-
+            LoadProblem(stages[stageIdx].defaultPrefab, false);
+            isLoadNewMap = true;
+            UnloadProblem();
+            
             randomSelector = new BalancedRandomSelector<int>();
             for (int i = 0; i < stages[stageIdx].problems.Count; i++)
             {
@@ -197,7 +198,8 @@ namespace Anomaly
             nextProblemMap.floorText.text = stageFloor.ToString();
             
             // 문 여는 애니메이션 실행.
-            currentProblemMap.mainDoor.OpenDoor();
+            var door = currentProblemMap.mainDoor;
+            door?.OpenDoor();
         }
 
         public void ResetGame()
@@ -221,7 +223,8 @@ namespace Anomaly
             }
             
             // 문을 닫는 애니메이션 실행
-            currentProblemMap.mainDoor.CloseDoor();
+            var door = currentProblemMap.mainDoor;
+            door?.CloseDoor();
           
             
             // 필요 없어진 이상현상 오브젝트 제거.

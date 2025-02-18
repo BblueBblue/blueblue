@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: 2CH_RainyProblem
   m_EditorClassIdentifier: 
   type: 4
+  anomalyName: 2CH_RainyProblem
   problemPrefab: {fileID: 4695698154368720015, guid: e71e84a6203bcd544abf9d10ba1e8294,
     type: 3}

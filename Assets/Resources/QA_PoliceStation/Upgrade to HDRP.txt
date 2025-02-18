@@ -1,6 +1,0 @@
-Support Unity version 2019.4.36 and above.
-Support Universal RP 7.7.1 and above.
-
-To use this pack with HDRP follow next steps:
-1. Extract the HDRP.unitypackage file which can be found at the Assets/QA_PoliceStation/ folder.
-2. Put the HDRenderPipelineAsset, which can be found at Assets/QA_PoliceStation/Demoscene folder, into the Rendering slot in the Edit > Project Settings > Quality.

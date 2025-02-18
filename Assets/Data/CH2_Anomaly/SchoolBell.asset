@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: SchoolBell
   m_EditorClassIdentifier: 
   type: 4
+  anomalyName: SchoolBell
   problemPrefab: {fileID: 3676977303899488767, guid: 5fef11ed50f19ad45b6fad2f85b12067,
     type: 3}

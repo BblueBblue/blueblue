@@ -90,7 +90,7 @@ public class AnomalyClearDataHandler : MonoBehaviour
         {
             foreach (var pageData in pagesData.Value)
             {
-                data.AddData(pageData.anomalyName);
+                data.AddData(pageData.anomalyData.anomalyName);
             }
         }
 

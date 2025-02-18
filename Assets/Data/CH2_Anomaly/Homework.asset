@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Homework
   m_EditorClassIdentifier: 
   type: 4
+  anomalyName: Homework
   problemPrefab: {fileID: 4243115120342632700, guid: 3294b88e403d6b741834b897dd1457df,
     type: 3}

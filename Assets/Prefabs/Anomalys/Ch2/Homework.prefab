@@ -43653,6 +43653,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7326520480164440881, guid: 1a229441cffa447be8682b47acf55f14,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 50.25
+      objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 1a229441cffa447be8682b47acf55f14,
         type: 3}
       propertyPath: m_Name
@@ -43673,7 +43678,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2971154140289685823, guid: 1a229441cffa447be8682b47acf55f14, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 662955977594263833, guid: 1a229441cffa447be8682b47acf55f14,

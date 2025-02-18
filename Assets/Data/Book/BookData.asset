@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4e1db63edd12c48a2654dbebea2dff, type: 3}
+  m_Name: BookData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: dae77398647e98244a8e6eba0347873b, type: 2}
+    - {fileID: 11400000, guid: 5b8bba7ac6b3c364999bb8d3e2df7c98, type: 2}
+    - {fileID: 11400000, guid: c443167a25dbf864cbdd277794574709, type: 2}
+    - {fileID: 11400000, guid: 3f42787946a41d641a07cb1dbbbb8e97, type: 2}
+    - {fileID: 11400000, guid: 0b1f57da04157494e88ed5c288240800, type: 2}
+    - {fileID: 11400000, guid: 2c49c6b8a793cdb419e296ba2d1772cd, type: 2}
+    - {fileID: 11400000, guid: d31402736b1e1124db5f3135b35e5bbb, type: 2}
+    - {fileID: 11400000, guid: 14febbe47d60e6541a31cc86d355c5bf, type: 2}
+    - {fileID: 11400000, guid: a2c6ddf53cd6daf4982523ec7b36f150, type: 2}
+    - {fileID: 11400000, guid: 73c1c3b0a0b825141879b9aee331b4ad, type: 2}
+    - {fileID: 11400000, guid: 6bfde998340b6c24e8928e06b6249fed, type: 2}
+    - {fileID: 11400000, guid: 9f14d60831ca28544ac8c0b95857f935, type: 2}
+    - {fileID: 11400000, guid: 0ced377c3006d6c468809e186aa524c5, type: 2}
+    - {fileID: 11400000, guid: 0a75cff2cf7b8dd46860217cc480b1ff, type: 2}
+    - {fileID: 11400000, guid: 844bae6cabff4e14fb080b98c63cb111, type: 2}
+    - {fileID: 11400000, guid: d2c18fd66fd35374cb7fdaccb832b873, type: 2}
+    - {fileID: 11400000, guid: d0acbe9173f59c1479ad51bd41ad767c, type: 2}
+    - {fileID: 11400000, guid: 2eeecf26d823c514b987f7e38848e2e9, type: 2}
+    - {fileID: 11400000, guid: 38d924110f73dbf4b87f16d26b318b5f, type: 2}
+    - {fileID: 11400000, guid: 6296bb26c26d0c146a8209ddde5f0950, type: 2}
+    - {fileID: 11400000, guid: 1ca324093f0766543856029b058169ad, type: 2}
+    - {fileID: 11400000, guid: 58012a1b638c956439825fae1365e159, type: 2}
+    - {fileID: 11400000, guid: d3da53198f759cb41a4225909decbcf4, type: 2}
+    - {fileID: 11400000, guid: b5cbcd5b3f31cb04ab595122a35e113f, type: 2}
+    - {fileID: 11400000, guid: 69a20f44123e03642930e7db81f61f5c, type: 2}
+    - {fileID: 11400000, guid: f9e5ff8b8ad9789468cdb9203e914f2e, type: 2}
+    - {fileID: 11400000, guid: ceec34a999e56f84da97735aed1070a7, type: 2}
+    - {fileID: 11400000, guid: 77dbaa371cd60cc408fe2af683d0625a, type: 2}
+    - {fileID: 11400000, guid: 004dac406ddcdb6429bd23fd783eb391, type: 2}
+    - {fileID: 11400000, guid: 41f908532fafcc8458328d1efb09d921, type: 2}
+    - {fileID: 11400000, guid: 740ec8224991c4a48951958adec32546, type: 2}
+    - {fileID: 11400000, guid: 7f04171b2adf3cd4b8bfff796c5e094c, type: 2}
+    - {fileID: 11400000, guid: 4e5ffe5eba320ac4ab69cd3f044837a6, type: 2}
+    - {fileID: 11400000, guid: 8ebc50935b63a1745843cdc54396b921, type: 2}
+    - {fileID: 11400000, guid: 3ee3423e7895ba94f87d6018952196ec, type: 2}
+    - {fileID: 11400000, guid: f0f3f8bd2872c9340a11f74328625436, type: 2}
+    - {fileID: 11400000, guid: fa089d1f579f1774ca46968787f4cda1, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: pages
+      Entry: 7
+      Data: 0|System.Collections.Generic.SortedDictionary`2[[Anomaly.AnomalyType,
+        Assembly-CSharp],[System.Collections.Generic.List`1[[Book.PageScriptableObject,
+        Assembly-CSharp]], mscorlib]], System
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[Anomaly.AnomalyType, Assembly-CSharp],[System.Collections.Generic.List`1[[Book.PageScriptableObject,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Book.PageScriptableObject, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[Anomaly.AnomalyType, Assembly-CSharp],[System.Collections.Generic.List`1[[Book.PageScriptableObject,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Book.PageScriptableObject, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[Anomaly.AnomalyType, Assembly-CSharp],[System.Collections.Generic.List`1[[Book.PageScriptableObject,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Book.PageScriptableObject, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[Anomaly.AnomalyType, Assembly-CSharp],[System.Collections.Generic.List`1[[Book.PageScriptableObject,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 16
+    - Name: 
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Book.PageScriptableObject, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

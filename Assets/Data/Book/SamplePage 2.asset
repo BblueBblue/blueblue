@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SamplePage 2
   m_EditorClassIdentifier: 
   anomalyType: 2
-  anomalyName: GhostOnBookcase
+  anomalyData: {fileID: 11400000, guid: 72f07df6cdeb86845aa0b6759cb9f3ee, type: 2}
   photo: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   description: sample2

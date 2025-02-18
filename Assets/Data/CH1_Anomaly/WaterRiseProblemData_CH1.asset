@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: WaterRiseProblemData_CH1
   m_EditorClassIdentifier: 
   type: 2
+  anomalyName: WaterRiseProblemData_CH1
   problemPrefab: {fileID: 5181337742191325415, guid: 2efc77f428b96c04dad8277d9814d625,
     type: 3}

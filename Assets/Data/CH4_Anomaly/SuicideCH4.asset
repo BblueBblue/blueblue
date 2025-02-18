@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: SuicideCH4
   m_EditorClassIdentifier: 
   type: 16
+  anomalyName: SuicideCH4
   problemPrefab: {fileID: 1131758356939837752, guid: f9066ab82a3bcdd4abd5b77815c553e6,
     type: 3}
