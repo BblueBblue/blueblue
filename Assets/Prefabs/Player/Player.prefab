@@ -805,6 +805,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3184302063109430013}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 14d42edfcdefc304f901d8554bd5e48a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1286444542346816288}
   m_SourcePrefab: {fileID: 100100000, guid: 14d42edfcdefc304f901d8554bd5e48a, type: 3}
 --- !u!95 &1429220778310951507 stripped
 Animator:
@@ -920,7 +924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7785a17b193d79040bb0a10f6e567315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTriggered: 0
   cameraRotated: {fileID: 8609587097316401901}
 --- !u!114 &3184302063109430013
 MonoBehaviour:
@@ -949,6 +952,19 @@ MonoBehaviour:
   onStopInteracting:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-1286444542346816288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5656064566805226131}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ebfa4cf5bbf5e47aadeeec027630fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  change: 0
 --- !u!4 &5830830288893823920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1320764503449572466, guid: 14d42edfcdefc304f901d8554bd5e48a,
