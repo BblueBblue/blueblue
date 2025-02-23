@@ -13,6 +13,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 34CH_NoisyDisplay
       objectReference: {fileID: 0}
+    - target: {fileID: 6576247584562035893, guid: cf7c63ced5d3281429420f0c0d6bc9ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9208015704408517142, guid: cf7c63ced5d3281429420f0c0d6bc9ca,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -150,10 +155,16 @@ PrefabInstance:
     - target: {fileID: 8241887383551660762, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
         type: 3}
       propertyPath: m_Name
-      value: DefaultMap_3Ch Variant
+      value: 3CH_ComputerGlitchProblem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321693488294162208, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8321693488294162208, guid: 13cf5d27cd2bb47859a7b3b39c10635a, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2823616820938637017, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
         type: 3}
