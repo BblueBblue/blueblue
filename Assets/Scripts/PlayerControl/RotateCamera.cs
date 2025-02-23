@@ -62,5 +62,9 @@ namespace PlayerControl
             transform.localRotation = Quaternion.Euler(0, 0, 0);
             jumpScareTriggered = true;
         }
+        public void WhenJumpScareReleased()
+        {
+            jumpScareTriggered = false;
+        }
     }
 }

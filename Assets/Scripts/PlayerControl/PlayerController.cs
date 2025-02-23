@@ -254,6 +254,10 @@ namespace PlayerControl {
         {
             jumpScareTriggered= true;
         }
+        public void WhenJumpScareReleased()
+        {
+            jumpScareTriggered= false;
+        }
 
         private void OnControllerColliderHit(ControllerColliderHit hit)
         {
