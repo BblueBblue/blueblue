@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 3CH_ComputerGlitchProblem
   m_EditorClassIdentifier: 
   type: 8
-  anomalyName: 
+  anomalyName: 3CH_ComputerGlitchProblem
   problemPrefab: {fileID: 2320189353597932789, guid: 6da7e25e34df80a48b7e1f0f5dd82ac0,
     type: 3}
