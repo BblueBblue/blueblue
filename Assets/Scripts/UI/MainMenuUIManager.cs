@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Interaction;
+using DG.Tweening;
 using PlayerControl;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,6 +18,8 @@ namespace UI
         private GameObject EmissionOffObject;
         [SerializeField] 
         private GameObject EmissionOnObject;
+        [SerializeField] 
+        private DOTweenAnimation startAnimation;
         
         [SerializeField] 
         private List<GameObject> lightObjects;
@@ -28,48 +32,37 @@ namespace UI
 
         [SerializeField] 
         private Sprite changedLogo;
-        
-        void Start()
+
+        private bool isStartGame;
+
+        private void Awake()
         {
-            SetMouseCursor(true);
+            isStartGame = false;
         }
 
-        public void SetMouseCursor(bool visible)
+        void Start()
         {
-            if (visible)
-            {
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
-            }
-            else
-            {
-                Cursor.visible = false;
-                Cursor.lockState = CursorLockMode.Locked;    
-            }
+            jumpScareTriggered.WhenJumpScareTriggered();
         }
-        
-        public void MakePlayerMove()
+
+        private void Update()
         {
-            jumpScareTriggered.isTriggered = false;
-        }
-        
-        public void QuitGame()
-        {
-#if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
+            if (!isStartGame && !Input.GetKeyDown(KeyCode.Escape) && Input.anyKeyDown)
+            {
+                isStartGame = true;
+                OnStartGame();
+            }
         }
 
         public void OnStartGame()
         {
+            startAnimation.DORestartAllById("StartGame");
             StartCoroutine(TurnOnLight());
         }
-
+        
         private IEnumerator TurnOnLight()
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(2.5f);
 
             // 전등 오브젝트 활성화
             foreach (var lightObject in lightObjects)
@@ -89,6 +82,10 @@ namespace UI
             
             // 이미지 변경
             LogoImage.sprite = changedLogo;
+
+            yield return null;
+            
+            jumpScareTriggered.WhenJumpScareReleased();
         }
     }
 }
