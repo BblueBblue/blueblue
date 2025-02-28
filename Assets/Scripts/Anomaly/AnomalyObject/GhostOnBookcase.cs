@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Scenes;
 using Cinemachine;
 using DG.Tweening;
 using PlayerControl;
@@ -114,7 +115,8 @@ namespace Anomaly.Object
 
             // 암전 이후 게임 재시작
             yield return new WaitForSeconds(1f);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneController.Instance.ResetScene(0);
         }
     }
 }
