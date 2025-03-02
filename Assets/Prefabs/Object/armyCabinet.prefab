@@ -58,33 +58,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7006711180395125008, guid: 0d4f9a62a1d80564e886ff1124f95787,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d94ed91cd59fad24083529ee1727e4c5, type: 2}
-    - target: {fileID: 626041177407889551, guid: 0d4f9a62a1d80564e886ff1124f95787,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d94ed91cd59fad24083529ee1727e4c5, type: 2}
     - target: {fileID: 919132149155446097, guid: 0d4f9a62a1d80564e886ff1124f95787,
         type: 3}
       propertyPath: m_Name
       value: armyCabinet
       objectReference: {fileID: 0}
-    - target: {fileID: 2846642113089488605, guid: 0d4f9a62a1d80564e886ff1124f95787,
+    - target: {fileID: 1641371027895496600, guid: 0d4f9a62a1d80564e886ff1124f95787,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d94ed91cd59fad24083529ee1727e4c5, type: 2}
-    - target: {fileID: 7329877065567512387, guid: 0d4f9a62a1d80564e886ff1124f95787,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d94ed91cd59fad24083529ee1727e4c5, type: 2}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1641371027895496600, guid: 0d4f9a62a1d80564e886ff1124f95787,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2567090693936469707}
   m_SourcePrefab: {fileID: 100100000, guid: 0d4f9a62a1d80564e886ff1124f95787, type: 3}
+--- !u!1 &4989464809482899708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1641371027895496600, guid: 0d4f9a62a1d80564e886ff1124f95787,
+    type: 3}
+  m_PrefabInstance: {fileID: 6050992437417901924}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2567090693936469707
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989464809482899708}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 105.84262, y: 257.75107, z: 46.46921}
+  m_Center: {x: 0, y: 129.38542, z: 0.000030517578}
