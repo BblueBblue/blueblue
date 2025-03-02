@@ -5,6 +5,8 @@ using System.Interaction;
 using DG.Tweening;
 using PlayerControl;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 namespace UI
@@ -35,6 +37,10 @@ namespace UI
 
         private bool isStartGame;
 
+        [SerializeField]
+        private Volume volumeProfile;
+        private Vignette vignette;
+        
         private void Awake()
         {
             isStartGame = false;
@@ -42,7 +48,11 @@ namespace UI
 
         IEnumerator Start()
         {
-            yield return new FrameTiming();
+            yield return null;
+            if (volumeProfile.sharedProfile.TryGet(out vignette))
+            {
+                vignette.intensity.value = 0.4f;
+            }
             jumpScareTriggered.WhenJumpScareTriggered();
         }
 
@@ -58,7 +68,22 @@ namespace UI
         public void OnStartGame()
         {
             startAnimation.DORestartAllById("StartGame");
+            StartCoroutine(VignetteRelease(0.4f));
             StartCoroutine(TurnOnLight());
+        }
+
+        private IEnumerator VignetteRelease(float duration)
+        {
+            float interpolation = 0.2f / duration;
+            float time = 0f;
+            while (time < duration)
+            {
+                time += Time.deltaTime;
+                vignette.intensity.value -= Time.deltaTime * interpolation;
+                yield return null;
+            }
+
+            vignette.intensity.value = 0.2f;
         }
         
         private IEnumerator TurnOnLight()
