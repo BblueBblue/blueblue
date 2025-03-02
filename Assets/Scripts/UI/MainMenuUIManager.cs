@@ -40,8 +40,9 @@ namespace UI
             isStartGame = false;
         }
 
-        void Start()
+        IEnumerator Start()
         {
+            yield return new FrameTiming();
             jumpScareTriggered.WhenJumpScareTriggered();
         }
 
