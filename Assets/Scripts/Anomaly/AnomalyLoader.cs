@@ -9,6 +9,8 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using Utility;
 using Random = UnityEngine.Random;
+using Steamworks;
+using Steamworks.Data;
 
 namespace Anomaly
 {
@@ -76,6 +78,13 @@ namespace Anomaly
                 Debug.Log("정답!");
 #endif
                 //정답을 맞춘경우
+                if(currentProblemMap.SteamAchievement != "NAN" && SteamClient.IsValid)
+                {
+                    //SteamUserStats.SetStat(currentProblemMap.SteamAchievement, 1);
+                    var ach = new Achievement(currentProblemMap.SteamAchievement);
+                    if(!ach.State)
+                        ach.Trigger();
+                }
                 if (currentMapIdx != -1)
                 {
                     randomSelector.RemoveRandomItem();
