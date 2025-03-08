@@ -15,8 +15,12 @@ namespace UI
         [Tooltip("설정 키")] public KeyCode settingKeyCode = KeyCode.Escape;
 
         [Space(3)]
-        [Header("BGM")] [SerializeField] private Slider bgmSlider;
-        [Header("SFX")] [SerializeField] private Slider sfxSlider;
+        [Header("BGM")] 
+        [SerializeField] private Slider bgmSlider;
+        [SerializeField] private Text bgmValueText;
+        [Header("SFX")] 
+        [SerializeField] private Slider sfxSlider;
+        [SerializeField] private Text sfxValueText;
 
         [Space(3)]
         [Header("Sensitivity")]
@@ -25,12 +29,14 @@ namespace UI
         [SerializeField] private float curHorizontalSensitivity;
         [SerializeField] private float minHorizontalSensitivity = 20f;
         [SerializeField] private float maxHorizontalSensitivity = 200f;
-
+        [SerializeField] private Text mouseHorizontalValueText;
+        [Space(3)]
         [SerializeField] private Slider mouseVerticalSlider;
         [HideInInspector]public UnityEvent<float> onVerticalSensitivityValueChanged;
         [SerializeField] private float curVerticalSensitivity;
         [SerializeField] private float minVerticalSensitivity = 20f;
         [SerializeField] private float maxVerticalSensitivity = 200f;
+        [SerializeField] private Text mouseVerticalValueText;
 
         [Space(3)]
         [Header("Button")] 
@@ -62,14 +68,18 @@ namespace UI
 
             var bgmVolume = SoundManager.Instance.BGMMasterVolume;
             bgmSlider.value = bgmVolume;
+            bgmValueText.text = Mathf.RoundToInt(bgmVolume*100f).ToString(); 
             bgmSlider.onValueChanged.AddListener(OnBGMValueChanged);
+            bgmSlider.onValueChanged.AddListener(value => OnSoundTextChanged(value,bgmValueText));
             #endregion  
             
             #region SFX
 
             var sfxVolume = SoundManager.Instance.SFXMasterVolume;
             sfxSlider.value = sfxVolume;
+            bgmValueText.text = Mathf.RoundToInt(sfxVolume*100f).ToString(); 
             sfxSlider.onValueChanged.AddListener(OnSFXValueChanged);
+            sfxSlider.onValueChanged.AddListener(value => OnSoundTextChanged(value,sfxValueText));
             #endregion
 
             #region Mouse
@@ -77,13 +87,17 @@ namespace UI
             mouseHorizontalSlider.minValue = minHorizontalSensitivity;
             curHorizontalSensitivity = PlayerPrefs.GetFloat("HorizontalSensitivity", 110);
             mouseHorizontalSlider.value = curHorizontalSensitivity;
+            mouseHorizontalValueText.text = Mathf.RoundToInt(curHorizontalSensitivity).ToString();  
             mouseHorizontalSlider.onValueChanged.AddListener(OnHorizontalSensitivityValueChanged);
+            mouseHorizontalSlider.onValueChanged.AddListener(value => OnSensitivityTextChanged(value,mouseHorizontalValueText));
 
             mouseVerticalSlider.maxValue = maxVerticalSensitivity;
             mouseVerticalSlider.minValue = minVerticalSensitivity;
             curVerticalSensitivity = PlayerPrefs.GetFloat("VerticalSensitivity", 110);
             mouseVerticalSlider.value = curVerticalSensitivity;
+            mouseHorizontalValueText.text =  Mathf.RoundToInt(curVerticalSensitivity).ToString();
             mouseVerticalSlider.onValueChanged.AddListener(OnVerticalSensitivityValueChanged);
+            mouseVerticalSlider.onValueChanged.AddListener(value => OnSensitivityTextChanged(value,mouseVerticalValueText));
             
             #endregion
             
@@ -119,6 +133,17 @@ namespace UI
             curHorizontalSensitivity = value;
             PlayerPrefs.SetFloat("HorizontalSensitivity", curHorizontalSensitivity);
             onHorizontalSensitivityValueChanged.Invoke(value);
+        }
+        
+        private void OnSoundTextChanged(float value, Text valueText) 
+        {
+            float displayValue = value * 100f;
+            valueText.text = Mathf.RoundToInt(displayValue).ToString();
+        }
+        
+        private void OnSensitivityTextChanged(float value, Text valueText) 
+        {
+            valueText.text = Mathf.RoundToInt(value).ToString();
         }
         
         #endregion
