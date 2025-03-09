@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anomalyType: 4
   anomalyData: {fileID: 11400000, guid: 0441f51f8681ca643816bcd38408084c, type: 2}
-  photo: {fileID: 21300000, guid: 97bb26893e5ecb14aafd5b00a4b20c32, type: 3}
+  photo: {fileID: 21300000, guid: 927ecbf97ff26aa42a9e56450a726e0b, type: 3}
   description: "\uC624\uB298 \uBC24\uC5D0 \uAC8C\uC784\uC744 \uD558\uACE0 \uC788\uC5C8\uB294\uB370,
     \uAC11\uC790\uAE30 \uD654\uBA74\uC5D0 \uADC0\uC2E0 \uAC19\uC740 \uAC8C \uD280\uC5B4\uB098\uC654\uB2E4.
     \uC6D0\uB798 \uADF8\uB7F0 \uAC8C\uC784\uC774 \uC544\uB2C8\uC5C8\uB294\uB370,

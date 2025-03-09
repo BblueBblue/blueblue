@@ -14,5 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anomalyType: 16
   anomalyData: {fileID: 11400000, guid: 6c22f63b6dd8ad54aaf2f8bb8f322e24, type: 2}
-  photo: {fileID: 21300000, guid: cfd1094d48a44874cb8f177ac4491e85, type: 3}
-  description: 
+  photo: {fileID: 21300000, guid: 413cec0ecf94dab46994ac7f02fe2913, type: 3}
+  description: "\uAFC8\uC5D0\uC11C \uD55C \uCABD\uC5D0 \uB193\uC778 \uC7A5\uB09C\uAC10\uC744
+    \uBCF4\uACE0 \uAC78\uC74C\uC744 \uBA48\uCDC4\uB2E4. \uBD84\uBA85 \uC6B0\uB9AC
+    \uC9D1\uC5D0 \uC788\uB358 \uAC8C \uC544\uB2CC\uB370, \uC5B4\uB514\uC11C \uC628
+    \uAC74\uC9C0 \uC54C \uC218 \uC5C6\uC5C8\uB2E4. \uC5B5\uC9C0\uB85C \uC6C3\uB294
+    \uB4EF\uD55C \uCC22\uC5B4\uC9C4 \uC785\uC774 \uC5B4\uB518\uAC00 \uBD88\uAE38\uD588\uB2E4.
+    \uB538\uC774 \uB450\uACE0 \uAC04 \uAC74\uAC00 \uC2F6\uC5B4 \uBB3C\uC5B4\uBD24\uC9C0\uB9CC,
+    \uBCF8 \uC801\uB3C4 \uC5C6\uB2E4\uB294 \uB300\uB2F5\uB9CC \uB3CC\uC544\uC654\uB2E4.
+    \uC870\uC6A9\uD55C \uBC24, \uADF8 \uC7A5\uB09C\uAC10\uB97C \uAC00\uB9CC\uD788
+    \uCCD0\uB2E4\uBCF4\uB294 \uAC83\uB9CC \uAC19\uC558\uB2E4."
