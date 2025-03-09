@@ -27,5 +27,16 @@ namespace publish
         {
             SteamClient.Shutdown();
         }
+        private void OnApplicationQuit()
+        {
+            try
+            {
+                SteamClient.Shutdown();
+            }
+            catch (System.Exception e)
+            {
+
+            }
+        }
     }
 }

@@ -1,5 +1,38 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3997351793727982085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 160466, guid: d2f567dfd62eb29459762ebbca476bca,
+    type: 3}
+  m_PrefabInstance: {fileID: 2036634744574260033}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2036634744574642331}
+  m_Layer: 0
+  m_Name: 'Kitchen_chair_fabric (Missing Prefab with guid: d2f567dfd62eb29459762ebbca476bca)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2036634744574642331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 408538, guid: d2f567dfd62eb29459762ebbca476bca,
+    type: 3}
+  m_PrefabInstance: {fileID: 2036634744574260033}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3997351793727982085}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.64023685, y: 0.26643944, z: 0.2528416, w: 0.6746688}
+  m_LocalPosition: {x: 132.84082, y: 63.2, z: -150.6}
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 8423572023650687739}
+  m_LocalEulerAnglesHint: {x: -87, y: 43.1, z: 0}
 --- !u!1001 &2036634744574260033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73,12 +106,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2f567dfd62eb29459762ebbca476bca, type: 3}
---- !u!4 &2036634744574642331 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 408538, guid: d2f567dfd62eb29459762ebbca476bca,
-    type: 3}
-  m_PrefabInstance: {fileID: 2036634744574260033}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3207168825129819141
 PrefabInstance:
   m_ObjectHideFlags: 0
