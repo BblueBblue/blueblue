@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Scenes;
 using Cinemachine.PostFX;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -87,9 +86,7 @@ namespace Anomaly.Object
                     vignette.intensity.value = 0.2f;
                     vignette.color.value = Color.black;
                     yield return new WaitForSeconds(1.1f);
-                    
-                    //SceneManager.LoadScene(SceneManager.loadedSceneCount);
-                    SceneController.Instance.ResetScene(0);
+                    SceneManager.LoadScene(SceneManager.loadedSceneCount);
                 }
 
                 yield return null;
