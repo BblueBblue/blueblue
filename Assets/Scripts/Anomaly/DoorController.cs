@@ -34,7 +34,10 @@ namespace Anomaly
                 return;
             }
             animator.SetTrigger(Open);
-            SoundManager.Instance.PlaySFX(openSFX);
+            if (openSFX != null)
+            {
+                SoundManager.Instance.PlaySFX(openSFX);
+            }
         }
 
         public void CloseDoor()
@@ -45,7 +48,10 @@ namespace Anomaly
             }
             Debug.Log("문 닫기");
             animator.SetTrigger(Close);
-            SoundManager.Instance.PlaySFX(closeSFX);
+            if (closeSFX != null)
+            {
+                SoundManager.Instance.PlaySFX(closeSFX);
+            }
         }
     }
 
