@@ -4275,6 +4275,7 @@ MonoBehaviour:
   unloadCollider: {fileID: 0}
   problem: {fileID: 0}
   floorText: {fileID: 0}
+  SteamAchievement: NAN
 --- !u!4 &2101434117
 Transform:
   m_ObjectHideFlags: 0

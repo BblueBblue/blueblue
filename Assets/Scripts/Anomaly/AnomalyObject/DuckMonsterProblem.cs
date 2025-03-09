@@ -10,6 +10,8 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using Steamworks;
+using Steamworks.Data;
 
 namespace Anomaly.Object
 {
@@ -139,7 +141,15 @@ namespace Anomaly.Object
             
             // SFX 출력
             SoundManager.Instance.PlaySFX(screamSFXPlayer, screamSFX, false);
-            
+
+            // 도전과제
+            if (SteamClient.IsValid)
+            {
+                var ach = new Achievement("DUCK_DIE");
+                if (ach.State)
+                    ach.Trigger();
+            }
+
             // 암전 게임 오버 연출 진행.
             yield return new WaitForSeconds(1.6f);
             blackScreen.SetActive(true);

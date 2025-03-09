@@ -153,6 +153,8 @@ MonoBehaviour:
   sfxPlayers:
   - {fileID: 5570927007480879127}
   - {fileID: 4323532738167975607}
+  jumpscareAchievement: NAN
+  stageNum: 3
 --- !u!1 &5110700517851301855
 GameObject:
   m_ObjectHideFlags: 0

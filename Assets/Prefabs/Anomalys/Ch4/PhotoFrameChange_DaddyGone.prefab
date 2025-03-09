@@ -58,10 +58,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 80d8f7e7b43534b32916a2583ad4b309,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: NO_DAD_PICTURE
+      objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 80d8f7e7b43534b32916a2583ad4b309,
         type: 3}
       propertyPath: m_Name
-      value: DefaultMap_4Ch Variant
+      value: PhotoFrameChange_DaddyGone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

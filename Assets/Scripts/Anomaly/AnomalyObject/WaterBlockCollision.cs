@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
+using Steamworks;
 
 namespace Anomaly.Object
 {
@@ -25,7 +26,9 @@ namespace Anomaly.Object
         [SerializeField] private AudioClip deadSFX;
         [SerializeField] private AudioClip splashCameInSFX;
         [SerializeField] private AudioClip splashCameOutSFX;
-        
+
+        public string waterAchievement = "WATER_DIE";
+
         private void Start()
         {
             Init();
@@ -86,6 +89,13 @@ namespace Anomaly.Object
                     SoundManager.Instance.PlaySFX(sfxPlayer, deadSFX, false);
                     vignette.intensity.value = 0.2f;
                     vignette.color.value = Color.black;
+
+                    if (SteamClient.IsValid)
+                    {
+                        var ach = new Steamworks.Data.Achievement(waterAchievement);
+                        if (ach.State)
+                            ach.Trigger();
+                    }
                     yield return new WaitForSeconds(1.1f);
                     
                     //SceneManager.LoadScene(SceneManager.loadedSceneCount);

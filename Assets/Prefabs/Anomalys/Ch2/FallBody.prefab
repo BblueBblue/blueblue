@@ -130,6 +130,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 1a229441cffa447be8682b47acf55f14,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: GHOST_FALL
+      objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 1a229441cffa447be8682b47acf55f14,
         type: 3}
       propertyPath: m_Name

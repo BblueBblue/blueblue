@@ -9,6 +9,8 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using Utility;
 using Random = UnityEngine.Random;
+using Steamworks;
+using Steamworks.Data;
 
 namespace Anomaly
 {
@@ -80,6 +82,13 @@ namespace Anomaly
                 Debug.Log("정답!");
 #endif
                 //정답을 맞춘경우
+                if(currentProblemMap.SteamAchievement != "NAN" && SteamClient.IsValid)
+                {
+                    //SteamUserStats.SetStat(currentProblemMap.SteamAchievement, 1);
+                    var ach = new Achievement(currentProblemMap.SteamAchievement);
+                    if(!ach.State)
+                        ach.Trigger();
+                }
                 if (currentMapIdx != -1)
                 {
                     randomSelector.RemoveRandomItem();
@@ -89,6 +98,29 @@ namespace Anomaly
                 {
                     // 다음 스테이지 로드
                     stageFloor = 1;
+
+                    // 스테이지 클리어 도전과제 해금
+                    if (SteamClient.IsValid)
+                    {
+                        Achievement ach;
+                        switch (stageIdx)
+                        {
+                            case 0:
+                                ach = new Achievement("CH1_C");
+                                break;
+                            case 1:
+                                ach = new Achievement("CH2_C");
+                                break;
+                            case 2:
+                                ach = new Achievement("CH3_C");
+                                break;
+                            case 3:
+                                ach = new Achievement("CH4_C");
+                                break;
+                        }
+                        if(ach.State)
+                            ach.Trigger();
+                    }
                     // 기본 맵 로드
                     if (++stageIdx == stages.Count)
                     {
