@@ -28,19 +28,13 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 73c1c3b0a0b825141879b9aee331b4ad, type: 2}
     - {fileID: 11400000, guid: 6bfde998340b6c24e8928e06b6249fed, type: 2}
     - {fileID: 11400000, guid: 9f14d60831ca28544ac8c0b95857f935, type: 2}
-    - {fileID: 11400000, guid: 5f31b23b3208a524abbee5a3a96ef813, type: 2}
     - {fileID: 11400000, guid: 0ced377c3006d6c468809e186aa524c5, type: 2}
     - {fileID: 11400000, guid: 0a75cff2cf7b8dd46860217cc480b1ff, type: 2}
     - {fileID: 11400000, guid: 844bae6cabff4e14fb080b98c63cb111, type: 2}
     - {fileID: 11400000, guid: d2c18fd66fd35374cb7fdaccb832b873, type: 2}
     - {fileID: 11400000, guid: d0acbe9173f59c1479ad51bd41ad767c, type: 2}
-    - {fileID: 11400000, guid: 6d5eefc7b846f2a449e043689c22fe53, type: 2}
-    - {fileID: 11400000, guid: 144d0c96566176b4698422ab4f549ed7, type: 2}
     - {fileID: 11400000, guid: 2eeecf26d823c514b987f7e38848e2e9, type: 2}
-    - {fileID: 11400000, guid: 77074e426c9304049a71c7bf35a11e41, type: 2}
-    - {fileID: 11400000, guid: d98de972009494343a3d50d0282e8016, type: 2}
     - {fileID: 11400000, guid: 38d924110f73dbf4b87f16d26b318b5f, type: 2}
-    - {fileID: 11400000, guid: 2080478a480dce549b751779a62d4128, type: 2}
     - {fileID: 11400000, guid: 6296bb26c26d0c146a8209ddde5f0950, type: 2}
     - {fileID: 11400000, guid: 1ca324093f0766543856029b058169ad, type: 2}
     - {fileID: 11400000, guid: 58012a1b638c956439825fae1365e159, type: 2}
@@ -55,20 +49,10 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 740ec8224991c4a48951958adec32546, type: 2}
     - {fileID: 11400000, guid: 7f04171b2adf3cd4b8bfff796c5e094c, type: 2}
     - {fileID: 11400000, guid: 4e5ffe5eba320ac4ab69cd3f044837a6, type: 2}
-    - {fileID: 11400000, guid: 1b44c31b14825bd4f877db5c7acb1b0d, type: 2}
-    - {fileID: 11400000, guid: b7cde0b6f663c0e4e92f51469dee90a9, type: 2}
-    - {fileID: 11400000, guid: 1ccecd7ec71448747b2f94c3d75dbe43, type: 2}
-    - {fileID: 11400000, guid: 003e5dbac8bd46649a2528349690bad3, type: 2}
-    - {fileID: 11400000, guid: a40bacff911b4f344bd624199306fd7a, type: 2}
-    - {fileID: 11400000, guid: 0b2ea56ebc7913647a24fdbd68f4cedc, type: 2}
     - {fileID: 11400000, guid: 8ebc50935b63a1745843cdc54396b921, type: 2}
-    - {fileID: 11400000, guid: 3c919f913ae42b146a63d78e4a1004af, type: 2}
     - {fileID: 11400000, guid: 3ee3423e7895ba94f87d6018952196ec, type: 2}
     - {fileID: 11400000, guid: f0f3f8bd2872c9340a11f74328625436, type: 2}
     - {fileID: 11400000, guid: fa089d1f579f1774ca46968787f4cda1, type: 2}
-    - {fileID: 11400000, guid: 89cb4fabc8fbe1c46b80b6c4a4859c37, type: 2}
-    - {fileID: 11400000, guid: 0b67722b68b36ce45a49945275bb21ac, type: 2}
-    - {fileID: 11400000, guid: 2f2bea97996ed0144897e36d3c8a6283, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -151,7 +135,7 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 15
+      Data: 9
     - Name: 
       Entry: 10
       Data: 11
@@ -180,24 +164,6 @@ MonoBehaviour:
       Entry: 10
       Data: 19
     - Name: 
-      Entry: 10
-      Data: 20
-    - Name: 
-      Entry: 10
-      Data: 21
-    - Name: 
-      Entry: 10
-      Data: 22
-    - Name: 
-      Entry: 10
-      Data: 23
-    - Name: 
-      Entry: 10
-      Data: 24
-    - Name: 
-      Entry: 10
-      Data: 25
-    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -222,6 +188,24 @@ MonoBehaviour:
       Data: 13
     - Name: 
       Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 10
       Data: 26
     - Name: 
       Entry: 10
@@ -241,24 +225,6 @@ MonoBehaviour:
     - Name: 
       Entry: 10
       Data: 32
-    - Name: 
-      Entry: 10
-      Data: 33
-    - Name: 
-      Entry: 10
-      Data: 34
-    - Name: 
-      Entry: 10
-      Data: 35
-    - Name: 
-      Entry: 10
-      Data: 36
-    - Name: 
-      Entry: 10
-      Data: 37
-    - Name: 
-      Entry: 10
-      Data: 38
     - Name: 
       Entry: 13
       Data: 
@@ -281,49 +247,19 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 14
+      Data: 4
     - Name: 
       Entry: 10
-      Data: 39
+      Data: 33
     - Name: 
       Entry: 10
-      Data: 40
+      Data: 34
     - Name: 
       Entry: 10
-      Data: 41
+      Data: 35
     - Name: 
       Entry: 10
-      Data: 42
-    - Name: 
-      Entry: 10
-      Data: 43
-    - Name: 
-      Entry: 10
-      Data: 44
-    - Name: 
-      Entry: 10
-      Data: 45
-    - Name: 
-      Entry: 10
-      Data: 46
-    - Name: 
-      Entry: 10
-      Data: 47
-    - Name: 
-      Entry: 10
-      Data: 48
-    - Name: 
-      Entry: 10
-      Data: 49
-    - Name: 
-      Entry: 10
-      Data: 50
-    - Name: 
-      Entry: 10
-      Data: 51
-    - Name: 
-      Entry: 10
-      Data: 52
+      Data: 36
     - Name: 
       Entry: 13
       Data: 
