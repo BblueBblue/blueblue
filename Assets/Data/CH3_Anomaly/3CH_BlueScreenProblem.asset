@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 3CH_BlueScreenProblem
   m_EditorClassIdentifier: 
   type: 8
-  anomalyName: 
+  anomalyName: 3CH_BlueScreenProblem
   problemPrefab: {fileID: 8242848149791613432, guid: 3cd584b297cf00842bf00beaa17c2714,
     type: 3}
