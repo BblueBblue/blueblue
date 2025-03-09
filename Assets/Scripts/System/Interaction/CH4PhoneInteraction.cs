@@ -12,6 +12,7 @@ namespace System.Interaction
 
         private float daugterTime = 0f;
         private float wifeTime = 0f;
+        private bool isTriggered = false;
 
         public GameObject blackSurface;
         public GameObject phonecallSurface;
@@ -40,13 +41,18 @@ namespace System.Interaction
 
         IEnumerator PhoneCall()
         {
-            SoundManager.Instance.PlaySFX(sfxPlayer, daughter, false);
-            yield return new WaitForSeconds(daugterTime);
-            SoundManager.Instance.PlaySFX(sfxPlayer, wife, false);
-            yield return new WaitForSeconds(wifeTime + 0.2f);
-            phoneNormalSurface.SetActive(true);
-            yield return new WaitForSeconds(0.4f);
-            blackSurface.SetActive(true);
+            if (!isTriggered)
+            {
+                isTriggered = true;
+                SoundManager.Instance.PlaySFX(sfxPlayer, daughter, false);
+                yield return new WaitForSeconds(daugterTime);
+                SoundManager.Instance.PlaySFX(sfxPlayer, wife, false);
+                yield return new WaitForSeconds(wifeTime + 0.2f);
+                phoneNormalSurface.SetActive(true);
+                yield return new WaitForSeconds(0.4f);
+                blackSurface.SetActive(true);
+            }
+            
         }
     }
 }
