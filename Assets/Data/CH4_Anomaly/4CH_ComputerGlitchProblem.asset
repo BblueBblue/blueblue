@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 4CH_ComputerGlitchProblem
   m_EditorClassIdentifier: 
   type: 16
-  anomalyName: 
+  anomalyName: 4CH_ComputerGlitchProblem
   problemPrefab: {fileID: 2078675661424322656, guid: cbf14aba09d422b4f90538d762a5317c,
     type: 3}
