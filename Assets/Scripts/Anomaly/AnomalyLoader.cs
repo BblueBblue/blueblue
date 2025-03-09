@@ -28,10 +28,6 @@ namespace Anomaly
 
         [SerializeField]
         private AnomalyClearDataHandler anomalyDataHandler;
-
-        [SerializeField] 
-        private GameObject endingHall;
-        
         public UnityEvent onClearGame;
         public UnityEvent onFailGame;
 
@@ -92,13 +88,7 @@ namespace Anomaly
                     // 기본 맵 로드
                     if (++stageIdx == stages.Count)
                     {
-                        // 엔딩 출력
-                        Transform spawnTransform = currentProblemMap.loadTransform;
-                        GameObject endingMap = Instantiate(endingHall, spawnTransform.position, new Quaternion(0,0,0,0));
-                        
-                        // 문 여는 애니메이션 실행.
-                        var door = currentProblemMap.mainDoor;
-                        door?.OpenDoor();
+                        // TODO 엔딩 출력
 #if UNITY_EDITOR
                         Debug.Log("게임 클리어!");
 #endif
