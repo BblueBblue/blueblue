@@ -292,10 +292,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: BUG
+      objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
         type: 3}
       propertyPath: m_Name
-      value: Anomally_Bug
+      value: Bug
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

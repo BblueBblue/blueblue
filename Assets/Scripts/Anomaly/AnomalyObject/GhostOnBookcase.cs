@@ -7,6 +7,8 @@ using DG.Tweening;
 using PlayerControl;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Steamworks.Data;
+using Steamworks;
 
 namespace Anomaly.Object
 {
@@ -34,6 +36,11 @@ namespace Anomaly.Object
         private CinemachineVirtualCamera cvc;
         private Vector3 poolPosition;
         private bool isActive;
+
+        public string jumpscareAchievement = "NAN";
+        [SerializeField]
+        private int stageNum = 0;
+
         private void Start()
         {
             player = GameObject.FindWithTag("Player").transform;
@@ -89,7 +96,15 @@ namespace Anomaly.Object
             // jumpScareDuck.transform.rotation = new Quaternion(0f, jumpScareDuck.transform.rotation.y, 0f, 1f);
             ghostJumpScare.transform.Rotate(0,180,0,Space.Self);
             yield return null;
-            
+
+            // 점프스케어 도전과제
+            if(jumpscareAchievement != "NAN" && SteamClient.IsValid)
+            {
+                var ach = new Achievement(jumpscareAchievement);
+                if (ach.State)
+                    ach.Trigger();
+            }
+
             // 점프스케어 연출 진행
             Sequence jumpScareSequence = DOTween.Sequence();
             jumpScareSequence.SetAutoKill(false);
@@ -116,7 +131,7 @@ namespace Anomaly.Object
             // 암전 이후 게임 재시작
             yield return new WaitForSeconds(1f);
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            SceneController.Instance.ResetScene(0);
+            SceneController.Instance.ResetScene(stageNum);
         }
     }
 }

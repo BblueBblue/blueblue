@@ -10,7 +10,7 @@ namespace publish
         [SerializeField]
         private uint steam_app_id;
         
-        private void Start()
+        private void Awake()
         {
             try
             {
@@ -21,6 +21,7 @@ namespace publish
             {
                 Debug.LogError("Access Failure");
             }
+            DontDestroyOnLoad(gameObject);
         }
 
         private void OnDestroy()
