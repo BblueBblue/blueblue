@@ -77,7 +77,7 @@ namespace UI
 
             var sfxVolume = SoundManager.Instance.SFXMasterVolume;
             sfxSlider.value = sfxVolume;
-            bgmValueText.text = Mathf.RoundToInt(sfxVolume*100f).ToString(); 
+            sfxValueText.text = Mathf.RoundToInt(sfxVolume*100f).ToString(); 
             sfxSlider.onValueChanged.AddListener(OnSFXValueChanged);
             sfxSlider.onValueChanged.AddListener(value => OnSoundTextChanged(value,sfxValueText));
             #endregion
@@ -95,7 +95,7 @@ namespace UI
             mouseVerticalSlider.minValue = minVerticalSensitivity;
             curVerticalSensitivity = PlayerPrefs.GetFloat("VerticalSensitivity", 110);
             mouseVerticalSlider.value = curVerticalSensitivity;
-            mouseHorizontalValueText.text =  Mathf.RoundToInt(curVerticalSensitivity).ToString();
+            mouseVerticalValueText.text =  Mathf.RoundToInt(curVerticalSensitivity).ToString();
             mouseVerticalSlider.onValueChanged.AddListener(OnVerticalSensitivityValueChanged);
             mouseVerticalSlider.onValueChanged.AddListener(value => OnSensitivityTextChanged(value,mouseVerticalValueText));
             
