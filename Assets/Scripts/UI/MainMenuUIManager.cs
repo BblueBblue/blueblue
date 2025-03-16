@@ -46,9 +46,8 @@ namespace UI
             isStartGame = false;
         }
 
-        IEnumerator Start()
+        private void Start()
         {
-            yield return null;
             if (volumeProfile.sharedProfile.TryGet(out vignette))
             {
                 vignette.intensity.value = 0.4f;
