@@ -93,7 +93,7 @@ namespace Anomaly.Object
                     if (SteamClient.IsValid)
                     {
                         var ach = new Steamworks.Data.Achievement(waterAchievement);
-                        if (ach.State)
+                        if (!ach.State)
                             ach.Trigger();
                     }
                     yield return new WaitForSeconds(1.1f);

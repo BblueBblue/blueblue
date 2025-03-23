@@ -818,6 +818,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 99f8fe26392c4a64ba4ff2c08db496ae,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: NAN
+      objectReference: {fileID: 0}
     - target: {fileID: 4066229713119538143, guid: 99f8fe26392c4a64ba4ff2c08db496ae,
         type: 3}
       propertyPath: m_IsActive

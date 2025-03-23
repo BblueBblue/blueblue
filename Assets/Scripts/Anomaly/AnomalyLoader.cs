@@ -118,7 +118,7 @@ namespace Anomaly
                                 ach = new Achievement("CH4_C");
                                 break;
                         }
-                        if(ach.State)
+                        if(!ach.State)
                             ach.Trigger();
                     }
                     // 기본 맵 로드
