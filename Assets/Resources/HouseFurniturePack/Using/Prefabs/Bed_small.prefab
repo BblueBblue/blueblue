@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 2390946}
   - component: {fileID: 6516818}
   - component: {fileID: 6548252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bed_small
   m_TagString: Untagged
   m_Icon: {fileID: 0}

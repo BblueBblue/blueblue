@@ -13,6 +13,11 @@ namespace Anomaly.Object
         public Volume volumeProfile;
         private bool isTriggered = false;
 
+        [SerializeField] 
+        private float startVignetteValue = 0.2f;
+        [SerializeField] 
+        private float endVignetteValue = 0.5f;
+
         private Vignette vignette;
 
         void Start()
@@ -26,7 +31,7 @@ namespace Anomaly.Object
         }
         public override void ResetProblem()
         {
-            StartCoroutine(ChangeVignette(0.5f, 0.2f));
+            StartCoroutine(ChangeVignette(endVignetteValue, startVignetteValue));
             isTriggered = false;
             GetComponentInChildren<EndBlackOut1>().ResetAnomaly();
         }
@@ -41,7 +46,7 @@ namespace Anomaly.Object
         }
         protected override void ActivePhenomenon()
         {
-            StartCoroutine(ChangeVignette(0.2f, 0.5f));
+            StartCoroutine(ChangeVignette(startVignetteValue, endVignetteValue));
         }
 
         IEnumerator ChangeVignette(float _start, float _end)
@@ -57,6 +62,11 @@ namespace Anomaly.Object
                 yield return null;
             }
             vignette.intensity.value = _end;
+        }
+
+        private void OnDestroy()
+        {
+            vignette.intensity.value = startVignetteValue;
         }
     }
 }

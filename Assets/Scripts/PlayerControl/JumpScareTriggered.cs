@@ -28,7 +28,7 @@ namespace PlayerControl
             }
         }
 
-        private void Start()
+        private void Awake()
         {
             r = cameraRotated.GetComponent<RotateCamera>();
             p = GetComponent<PlayerController>();

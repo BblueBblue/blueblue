@@ -101,7 +101,7 @@ namespace Anomaly.Object
             if(jumpscareAchievement != "NAN" && SteamClient.IsValid)
             {
                 var ach = new Achievement(jumpscareAchievement);
-                if (ach.State)
+                if (!ach.State)
                     ach.Trigger();
             }
 
