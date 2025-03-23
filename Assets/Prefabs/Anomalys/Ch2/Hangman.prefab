@@ -142,6 +142,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 1a229441cffa447be8682b47acf55f14,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: HANGMAN
+      objectReference: {fileID: 0}
     - target: {fileID: 5937221233524953498, guid: 1a229441cffa447be8682b47acf55f14,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

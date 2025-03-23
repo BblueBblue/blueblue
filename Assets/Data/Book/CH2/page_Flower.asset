@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c242a09d463614a41b3e44a4aaa2e27d, type: 3}
+  m_Name: page_Flower
+  m_EditorClassIdentifier: 
+  anomalyType: 4
+  anomalyData: {fileID: 11400000, guid: f7bc559b549ea0e498fb8438fb9271f5, type: 2}
+  photo: {fileID: 21300000, guid: 3304593624501ce42b43358324b1493f, type: 3}
+  description: "\uC624\uB298 \uB4F1\uAD50\uD588\uC744 \uB54C \uAD6D\uD654\uAC00 \uB0B4
+    \uC790\uB9AC \uC704\uC5D0 \uC62C\uB824\uC838 \uC788\uC5C8\uB2E4. \uBB50\uC9C0?
+    \uB098\uB294 \uC544\uC9C1 \uC0B4\uC544\uC788\uB294\uB370 \uB204\uAC00 \uC774\uB7F0
+    \uC7A5\uB09C\uC744 \uD55C \uAC83\uC77C\uAE4C? \uD56D\uC758\uB77C\uB3C4 \uD558\uB4EF
+    \uC8FC\uBCC0\uC5D0 \uC788\uB294 \uCE5C\uAD6C\uB4E4\uC5D0\uAC8C \uC18C\uB9AC\uCCE4\uB2E4.
+    \uD558\uC9C0\uB9CC \uADF8 \uB204\uAD6C\uB3C4 \uB098\uC758 \uBAA9\uC18C\uB9AC\uB97C
+    \uB4E3\uC9C0 \uBABB\uD558\uB294 \uAC83 \uAC19\uC558\uB2E4. \uB0B4\uAC00 \uC815\uB9D0\uB85C
+    \uC8FD\uC740 \uAC83\uC774\uC5C8\uB098? \uC2DD\uC740\uB540\uC774 \uB4F1\uC5D0\uC11C
+    \uD758\uB7EC\uB0B4\uB9B4 \uB54C \uCBE4, \uC54C\uB78C\uC18C\uB9AC\uC5D0 \uB208\uC774
+    \uB5A0\uC84C\uB2E4. \uC9C0\uB3C5\uD55C \uC545\uBABD\uC774\uB2E4."

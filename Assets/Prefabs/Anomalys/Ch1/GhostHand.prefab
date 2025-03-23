@@ -329,10 +329,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 99f8fe26392c4a64ba4ff2c08db496ae,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: UNDER_BED
+      objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 99f8fe26392c4a64ba4ff2c08db496ae,
         type: 3}
       propertyPath: m_Name
-      value: DefaultMap Variant
+      value: GhostHand
       objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 99f8fe26392c4a64ba4ff2c08db496ae,
         type: 3}

@@ -64,6 +64,7 @@ namespace PlayerControl
         }
         public void WhenJumpScareReleased()
         {
+            xRotation = 0;
             jumpScareTriggered = false;
         }
     }

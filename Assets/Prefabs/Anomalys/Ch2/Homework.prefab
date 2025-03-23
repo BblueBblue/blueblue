@@ -43613,6 +43613,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 1a229441cffa447be8682b47acf55f14,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: HOMEWORK
+      objectReference: {fileID: 0}
     - target: {fileID: 3136135520307445906, guid: 1a229441cffa447be8682b47acf55f14,
         type: 3}
       propertyPath: m_Layer

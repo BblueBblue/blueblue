@@ -20,6 +20,8 @@ namespace Anomaly
         public AnomalyObject problem;
 
         public TMP_Text floorText;
+
+        public String SteamAchievement = "NAN";
         
         public void ResetProblem()
         {

@@ -58,10 +58,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: BLUESCREEN
+      objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
         type: 3}
       propertyPath: m_Name
-      value: 3CH_BlueScreenProblem Variant
+      value: 3CH_BlueScreenProblem
       objectReference: {fileID: 0}
     - target: {fileID: 8321693488294162208, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
         type: 3}

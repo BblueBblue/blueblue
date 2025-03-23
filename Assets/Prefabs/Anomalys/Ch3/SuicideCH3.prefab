@@ -162,6 +162,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2610372804057260716, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
+        type: 3}
+      propertyPath: SteamAchievement
+      value: OLGAMI
+      objectReference: {fileID: 0}
     - target: {fileID: 3834140212889115809, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
         type: 3}
       propertyPath: m_SpotAngle
