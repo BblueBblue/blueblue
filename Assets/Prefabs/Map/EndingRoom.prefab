@@ -289,6 +289,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87139ded9cc0f6a499f9ade5ee11af0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effectDuration: 3
+  restartDuration: 3
+  door: {fileID: 0}
+  endingDialogue: {fileID: 8300000, guid: 5aec59b7f8b8a834f871b4a21b232f5a, type: 3}
 --- !u!1 &1577522167977347929
 GameObject:
   m_ObjectHideFlags: 0
