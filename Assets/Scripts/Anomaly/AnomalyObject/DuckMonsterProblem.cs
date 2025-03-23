@@ -146,7 +146,7 @@ namespace Anomaly.Object
             if (SteamClient.IsValid)
             {
                 var ach = new Achievement("DUCK_DIE");
-                if (ach.State)
+                if (!ach.State)
                     ach.Trigger();
             }
 
