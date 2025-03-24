@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: TV_Ghost
-  problemPrefab: {fileID: 1789100236513454464, guid: c30d124d1522c8d41be0bb9e64d2d77f,
+  problemPrefab: {fileID: 1789100236513454464, guid: c7aeeb1ec2d279b4394a5a29a16e1a3d,
     type: 3}
