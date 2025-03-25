@@ -282,22 +282,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6983123
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.53
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
@@ -307,7 +307,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
@@ -322,7 +322,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14d42edfcdefc304f901d8554bd5e48a,
         type: 3}
@@ -854,14 +854,14 @@ MonoBehaviour:
   atAirSpeed: 3
   jumpForce: 7
   highestFallSpeed: -7
-  fallSpeedFilter: 1
+  fallSpeedFilter: 1.4
   ground:
     serializedVersion: 2
     m_Bits: 64
   groundTagName: Ground
   groundCheckAngle: 45
   animator: {fileID: 1429220778310951507}
-  groundRay: 0.3
+  groundRay: 0.2
   maxFootStepTimer: 0.5
 --- !u!143 &1372098457924883631
 CharacterController:
@@ -939,11 +939,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Persistent: 0
   mainCamera: {fileID: 0}
-  startInteractKeyCode: 0
-  stopInteractKeyCode: 0
+  startInteractKeyCode: 101
+  stopInteractKeyCode: 101
   interactionLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   hoverImage: {fileID: 0}
   _interactDistance: 0
   onStartInteracting:
