@@ -157,7 +157,7 @@ namespace PlayerControl {
                 velocity.y = jumpForce;
                 isGround = false;
             }
-            CheckFootStep();
+            if(!jumpScareTriggered) CheckFootStep();
             //animation
             animator.SetFloat("Speed", Mathf.Abs(inputFB) + Mathf.Abs(inputRL));
             animator.SetFloat("VelocityY", velocity.y);
