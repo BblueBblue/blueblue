@@ -17,7 +17,23 @@ MonoBehaviour:
   defaultPrefab: {fileID: 8241887383551660762, guid: 13cf5d27cd2bb47859a7b3b39c10635a,
     type: 3}
   problems:
+  - {fileID: 11400000, guid: aed46a45a6727a2408febdc120f8466e, type: 2}
+  - {fileID: 11400000, guid: 84ae23a39cdd7fe43801f792497bc6dd, type: 2}
   - {fileID: 11400000, guid: 340b55c5cd4a2764eb6c1aba83ef9efb, type: 2}
-  - {fileID: 11400000, guid: 1218e13d66f1a29468d31ec45baebbcb, type: 2}
-  - {fileID: 11400000, guid: 5d0a7095f764f7b4c8a9fc839a7539fe, type: 2}
   - {fileID: 11400000, guid: 43c798e18ae80d64182069ca75ea58ce, type: 2}
+  - {fileID: 11400000, guid: 1218e13d66f1a29468d31ec45baebbcb, type: 2}
+  - {fileID: 11400000, guid: b43fc857e9bd2a243a97a2db6404615f, type: 2}
+  - {fileID: 11400000, guid: a6698b83d69985e40bf7267a447bb003, type: 2}
+  - {fileID: 11400000, guid: c61da6ec385c8834fb6b39a7c657188c, type: 2}
+  - {fileID: 11400000, guid: 745596635ec4db94485157f98fb7289c, type: 2}
+  - {fileID: 11400000, guid: 34f582779ba504c40b8531e8c82908f5, type: 2}
+  - {fileID: 11400000, guid: b7168ee82adaa114284a67332c4fafbb, type: 2}
+  - {fileID: 11400000, guid: faefbcab5d5236644a3dfd68cd845c38, type: 2}
+  - {fileID: 11400000, guid: 5d0a7095f764f7b4c8a9fc839a7539fe, type: 2}
+  - {fileID: 11400000, guid: a47c7ee42489a6840b424dc63d7d56bb, type: 2}
+  - {fileID: 11400000, guid: 387929790c46ed44d8580a7d328aa2fc, type: 2}
+  - {fileID: 11400000, guid: cf567426c0bf91b498e6c6d32128b37b, type: 2}
+  - {fileID: 11400000, guid: c5dbc597606af034dbf9ae8dc8f4ce65, type: 2}
+  - {fileID: 11400000, guid: b8c9ef191a8ba4f448bef20828f679b1, type: 2}
+  - {fileID: 11400000, guid: d707bee7939a45e48b6f5cf4eb4f2e6c, type: 2}
+  - {fileID: 11400000, guid: 0f8033e7ad0b3194ca80b08a2cf57cd5, type: 2}
