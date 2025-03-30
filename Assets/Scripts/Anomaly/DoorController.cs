@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 
 namespace Anomaly
@@ -40,7 +41,7 @@ namespace Anomaly
             }
         }
 
-        public void CloseDoor()
+        public async void CloseDoor()
         {
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("door_close"))
             {
@@ -50,6 +51,7 @@ namespace Anomaly
             animator.SetTrigger(Close);
             if (closeSFX != null)
             {
+                await Task.Delay(500);
                 SoundManager.Instance.PlaySFX(closeSFX);
             }
         }
