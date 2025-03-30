@@ -4909,8 +4909,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   daughter: {fileID: 8300000, guid: 126de08e19710dc4d95b43282d008dd9, type: 3}
-  wife: {fileID: 8300000, guid: a9c473561cfc4aa42a474113754195c5, type: 3}
+  talk: {fileID: 8300000, guid: 5e37dc9f3bf9379458398643dc74bc6b, type: 3}
   beep: {fileID: 8300000, guid: e256d367efb30714faa980f24702f7fc, type: 3}
+  connect: {fileID: 8300000, guid: 5d733838e866a5e488587b3865a61183, type: 3}
   blackSurface: {fileID: 2923066960629102257}
   phonecallSurface: {fileID: 2446545493403456383}
   phoneNormalSurface: {fileID: 7177129381760732071}
@@ -11020,7 +11021,7 @@ PrefabInstance:
     - target: {fileID: 4515757069525675993, guid: 8295064e1096aac438b4d219e93149df,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.97736907
       objectReference: {fileID: 0}
     - target: {fileID: 4515757069525675993, guid: 8295064e1096aac438b4d219e93149df,
         type: 3}
@@ -11030,7 +11031,7 @@ PrefabInstance:
     - target: {fileID: 4515757069525675993, guid: 8295064e1096aac438b4d219e93149df,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2164396
+      value: 0.21154137
       objectReference: {fileID: 0}
     - target: {fileID: 4515757069525675993, guid: 8295064e1096aac438b4d219e93149df,
         type: 3}

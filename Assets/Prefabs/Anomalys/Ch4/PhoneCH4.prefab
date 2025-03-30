@@ -60,6 +60,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2304015785964917836, guid: 80d8f7e7b43534b32916a2583ad4b309,
         type: 3}
+      propertyPath: talk
+      value: 
+      objectReference: {fileID: 8300000, guid: 436aff7a7852faa4d91d3ad376107411, type: 3}
+    - target: {fileID: 2304015785964917836, guid: 80d8f7e7b43534b32916a2583ad4b309,
+        type: 3}
       propertyPath: wife
       value: 
       objectReference: {fileID: 8300000, guid: e4ff4fe8c021dac4794b4b63339c13f8, type: 3}
