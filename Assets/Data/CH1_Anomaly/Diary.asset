@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Diary
   m_EditorClassIdentifier: 
   type: 2
-  anomalyName: Diary
+  anomalyName: 1Diary
   problemPrefab: {fileID: 57382678966526433, guid: 0ffd8a2943e7181428a581eeb1c97bc3,
     type: 3}

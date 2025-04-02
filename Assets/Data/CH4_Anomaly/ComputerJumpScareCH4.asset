@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ComputerJumpScareCH4
   m_EditorClassIdentifier: 
   type: 16
-  anomalyName: ComputerJumpScareCH4
+  anomalyName: 4ComputerJumpScareCH4
   problemPrefab: {fileID: 9046911566650250200, guid: d51bb01473c1ecc478cde728b5647c90,
     type: 3}

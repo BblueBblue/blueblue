@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ComputerTurnOffCH4
   m_EditorClassIdentifier: 
   type: 16
-  anomalyName: ComputerTurnOffCH4
+  anomalyName: 4ComputerTurnOffCH4
   problemPrefab: {fileID: 6168336605157371314, guid: 57794b1c416c29046af3d84762644680,
     type: 3}

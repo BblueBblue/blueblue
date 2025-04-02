@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Hangman
   m_EditorClassIdentifier: 
   type: 4
-  anomalyName: Hangman
+  anomalyName: 2Hangman
   problemPrefab: {fileID: 6140859471416171266, guid: 95222e4de4393d34aaa656252e2e57ed,
     type: 3}

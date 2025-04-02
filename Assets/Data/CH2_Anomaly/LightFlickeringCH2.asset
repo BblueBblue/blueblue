@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: LightFlickeringCH2
   m_EditorClassIdentifier: 
   type: 4
-  anomalyName: LightFlickeringCH2
+  anomalyName: 2LightFlickeringCH2
   problemPrefab: {fileID: 6244062191255423403, guid: ad2e91ad370e36143b370be0682b06fc,
     type: 3}

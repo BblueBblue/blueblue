@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GhostHand
   m_EditorClassIdentifier: 
   type: 2
-  anomalyName: GhostHand
+  anomalyName: 1GhostHand
   problemPrefab: {fileID: 4462945321718088344, guid: 527f8d94e4f64694e9bfa9b429fc1918,
     type: 3}

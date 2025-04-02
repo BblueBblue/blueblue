@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Store_Box
   m_EditorClassIdentifier: 
   type: 8
-  anomalyName: Store_Box
+  anomalyName: 3Store_Box
   problemPrefab: {fileID: 1376476403407473632, guid: 2cabcaa5b067bd9438229c5f19c8964b,
     type: 3}

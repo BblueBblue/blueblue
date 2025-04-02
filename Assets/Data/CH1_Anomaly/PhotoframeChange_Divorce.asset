@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PhotoframeChange_Divorce
   m_EditorClassIdentifier: 
   type: 2
-  anomalyName: PhotoframeChange_Divorce
+  anomalyName: 1PhotoframeChange_Divorce
   problemPrefab: {fileID: 7274315539320045932, guid: 28042b17a27cd7c469f2478b1203bdb0,
     type: 3}

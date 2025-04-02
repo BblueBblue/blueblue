@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ToyTrackCH1
   m_EditorClassIdentifier: 
   type: 2
-  anomalyName: ToyTrackCH1
+  anomalyName: 1ToyTrackCH1
   problemPrefab: {fileID: 750675895981952354, guid: 8ff9524e27f1b9e45b7e5d3fd77ec43f,
     type: 3}
