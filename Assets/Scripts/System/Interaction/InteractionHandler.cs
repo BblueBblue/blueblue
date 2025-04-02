@@ -27,7 +27,8 @@ namespace System.Interaction
         [ShowInInspector]
         private IInteractable currentInteractable;
         private IInteractable selectInteractable;
-
+        private bool isInteractiveActive;
+        
         [SerializeField] 
         private Image hoverImage;
         
@@ -58,11 +59,12 @@ namespace System.Interaction
 
         private void Update()
         {
-            if (Input.GetKeyDown(stopInteractKeyCode))
+            if (isInteractiveActive && Input.GetKeyDown(stopInteractKeyCode))
             {
                 StopInteract();
+                return;
             }
-         
+            
             GetInteractableObject();
             if (currentInteractable != null)
             {
@@ -76,8 +78,9 @@ namespace System.Interaction
             {
                 hoverImage.gameObject.SetActive(false);
             }
-            
+#if UNITY_EDITOR
             Debug.DrawLine(mainCamera.transform.position, mainCamera.transform.position + mainCamera.transform.forward * interactDistance, Color.red);
+#endif
         }
 
         #region About Interaction Handleing
@@ -111,7 +114,8 @@ namespace System.Interaction
             }
 
             selectInteractable?.StopInteract();
-
+            isInteractiveActive = true;
+            
             currentInteractable.StartInteract();
             selectInteractable = currentInteractable;
             onStartInteracting.Invoke();
@@ -127,6 +131,7 @@ namespace System.Interaction
             selectInteractable.StopInteract();
             onStopInteracting.Invoke();
             selectInteractable = null;
+            isInteractiveActive = false;
         }
 
         #endregion
