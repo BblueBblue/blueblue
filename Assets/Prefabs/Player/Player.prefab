@@ -945,7 +945,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   hoverImage: {fileID: 0}
-  _interactDistance: 0
+  _interactDistance: 1.5
   onStartInteracting:
     m_PersistentCalls:
       m_Calls: []
