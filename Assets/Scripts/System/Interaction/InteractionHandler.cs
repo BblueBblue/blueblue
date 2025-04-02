@@ -27,7 +27,6 @@ namespace System.Interaction
         [ShowInInspector]
         private IInteractable currentInteractable;
         private IInteractable selectInteractable;
-        private bool isInteractiveActive;
         
         [SerializeField] 
         private Image hoverImage;
@@ -59,24 +58,30 @@ namespace System.Interaction
 
         private void Update()
         {
-            if (isInteractiveActive && Input.GetKeyDown(stopInteractKeyCode))
-            {
-                StopInteract();
-                return;
-            }
-            
             GetInteractableObject();
             if (currentInteractable != null)
             {
                 hoverImage.gameObject.SetActive(true);
+                
                 if (Input.GetKeyDown(startInteractKeyCode))
                 {
+                    if (currentInteractable.Equals(selectInteractable))
+                    {
+                        StopInteract();
+                        return;
+                    }
                     StartInteract();
+                    return;
                 }
             }
             else
             {
                 hoverImage.gameObject.SetActive(false);
+            }
+            
+            if (Input.GetKeyDown(stopInteractKeyCode))
+            {
+                StopInteract();
             }
 #if UNITY_EDITOR
             Debug.DrawLine(mainCamera.transform.position, mainCamera.transform.position + mainCamera.transform.forward * interactDistance, Color.red);
@@ -114,7 +119,6 @@ namespace System.Interaction
             }
 
             selectInteractable?.StopInteract();
-            isInteractiveActive = true;
             
             currentInteractable.StartInteract();
             selectInteractable = currentInteractable;
@@ -131,7 +135,6 @@ namespace System.Interaction
             selectInteractable.StopInteract();
             onStopInteracting.Invoke();
             selectInteractable = null;
-            isInteractiveActive = false;
         }
 
         #endregion
