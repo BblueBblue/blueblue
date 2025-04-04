@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   anomalyName: 1ClothesDeleteCH1
-  problemPrefab: {fileID: 9032146686562421353, guid: a1b079594af64b74c94027b1b636c6fb,
+  problemPrefab: {fileID: 153561438652856645, guid: 2b0533d4b623a2b4cb89837e907d61c5,
     type: 3}

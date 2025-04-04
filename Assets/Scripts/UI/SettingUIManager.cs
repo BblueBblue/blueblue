@@ -2,6 +2,7 @@ using com.kleberswf.lib.core;
 using PlayerControl;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Rendering;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -66,7 +67,8 @@ namespace UI
 
             #region BGM
 
-            var bgmVolume = SoundManager.Instance.BGMMasterVolume;
+            var bgmVolume = SoundManager.Instance.BGMMasterVolume*8/10;
+            SoundManager.Instance.ChangeBGMVolume(bgmVolume);
             bgmSlider.value = bgmVolume;
             bgmValueText.text = Mathf.RoundToInt(bgmVolume*100f).ToString(); 
             bgmSlider.onValueChanged.AddListener(OnBGMValueChanged);
