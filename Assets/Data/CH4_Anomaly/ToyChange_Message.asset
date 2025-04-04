@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ToyChange_Message
   m_EditorClassIdentifier: 
   type: 16
-  anomalyName: ToyChange_Message
+  anomalyName: 4ToyChange_Message
   problemPrefab: {fileID: 267627801032553012, guid: db1804070bd668b4db300ddd9d1efb35,
     type: 3}

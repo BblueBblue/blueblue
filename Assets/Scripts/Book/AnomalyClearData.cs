@@ -10,8 +10,12 @@ public class AnomalyClearData
 
     public int clearCount = 0;
 
+    public int[] dict_by_chapter = new int[4];
+
     public void AddData(string anomalyName)
     {
+        int t = anomalyName[0] - '1';
+        dict_by_chapter[t]++;
         anomalyClearDictionary.Add(anomalyName, false);  
         clearCount++;
     }
@@ -20,6 +24,31 @@ public class AnomalyClearData
     {
         if (anomalyClearDictionary.ContainsKey(anomalyName))
         {
+            int t = anomalyName[0] - '1';
+            dict_by_chapter[t]--;
+
+            if (dict_by_chapter[t] == 0 && SteamClient.IsValid)
+            {
+                Achievement ach;
+                switch (t)
+                {
+                    case 0:
+                        ach = new Achievement("DIARY1CH");
+                        break;
+                    case 1:
+                        ach = new Achievement("DIARY2CH");
+                        break;
+                    case 2:
+                        ach = new Achievement("DIARY3CH");
+                        break;
+                    case 3:
+                        ach = new Achievement("DIARY4CH");
+                        break;
+                }
+                if (!ach.State)
+                    ach.Trigger();
+            }
+
             anomalyClearDictionary[anomalyName] = true;
             clearCount--;
 

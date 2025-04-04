@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PhotoFrameChange_PlayerDelete
   m_EditorClassIdentifier: 
   type: 2
-  anomalyName: PhotoFrameChange_PlayerDelete
+  anomalyName: 1PhotoFrameChange_PlayerDelete
   problemPrefab: {fileID: 3618712618490577782, guid: 2498ad3373caf2f4e898f75d41be46c4,
     type: 3}

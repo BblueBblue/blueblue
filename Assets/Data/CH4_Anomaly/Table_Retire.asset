@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Table_Retire
   m_EditorClassIdentifier: 
   type: 16
-  anomalyName: Table_Retire
+  anomalyName: 4Table_Retire
   problemPrefab: {fileID: 6227351985276428011, guid: d62ab2fdc59f8a8458f3c4e25cd14cdb,
     type: 3}

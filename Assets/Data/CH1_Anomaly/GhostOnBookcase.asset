@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GhostOnBookcase
   m_EditorClassIdentifier: 
   type: 2
-  anomalyName: GhostOnBookcase
+  anomalyName: 1GhostOnBookcase
   problemPrefab: {fileID: 5690710820719925774, guid: 52d16cbacdaa6a0469844964fae22071,
     type: 3}

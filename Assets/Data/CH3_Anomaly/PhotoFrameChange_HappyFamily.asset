@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PhotoFrameChange_HappyFamily
   m_EditorClassIdentifier: 
   type: 8
-  anomalyName: PhotoFrameChange_HappyFamily
+  anomalyName: 3PhotoFrameChange_HappyFamily
   problemPrefab: {fileID: 1008673770305109586, guid: a17af3d7fd418b34e91cfeee724071e7,
     type: 3}
