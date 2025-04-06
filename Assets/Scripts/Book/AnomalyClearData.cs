@@ -25,7 +25,11 @@ public class AnomalyClearData
         if (anomalyClearDictionary.ContainsKey(anomalyName))
         {
             int t = anomalyName[0] - '1';
-            dict_by_chapter[t]--;
+            if (!anomalyClearDictionary[anomalyName])
+            {
+                dict_by_chapter[t]--;
+                clearCount--;
+            }
 
             if (dict_by_chapter[t] == 0 && SteamClient.IsValid)
             {
@@ -50,7 +54,6 @@ public class AnomalyClearData
             }
 
             anomalyClearDictionary[anomalyName] = true;
-            clearCount--;
 
             if(clearCount == 0 && SteamClient.IsValid)
             {
