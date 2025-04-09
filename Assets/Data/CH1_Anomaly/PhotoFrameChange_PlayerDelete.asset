@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   anomalyName: 1PhotoFrameChange_PlayerDelete
-  problemPrefab: {fileID: 3618712618490577782, guid: 2498ad3373caf2f4e898f75d41be46c4,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 2498ad3373caf2f4e898f75d41be46c4
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

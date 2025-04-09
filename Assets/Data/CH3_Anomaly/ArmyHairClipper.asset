@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 8
   anomalyName: 3ArmyHairClipper
-  problemPrefab: {fileID: 4676239376017149961, guid: 32b311b2350e17842a51fd9071d561e1,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 32b311b2350e17842a51fd9071d561e1
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

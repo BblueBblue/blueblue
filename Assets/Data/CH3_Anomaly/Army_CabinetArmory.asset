@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 8
   anomalyName: 3Army_CabinetArmory
-  problemPrefab: {fileID: 1483773130709999525, guid: f6173262f42e0a04fa14ef00bbd91a9a,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: f6173262f42e0a04fa14ef00bbd91a9a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

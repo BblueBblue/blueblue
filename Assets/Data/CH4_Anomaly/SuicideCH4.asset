@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4SuicideCH4
-  problemPrefab: {fileID: 1131758356939837752, guid: f9066ab82a3bcdd4abd5b77815c553e6,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: f9066ab82a3bcdd4abd5b77815c553e6
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

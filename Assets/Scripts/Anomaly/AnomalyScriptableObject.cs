@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Anomaly;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.SceneManagement;
 
 namespace Anomaly
@@ -14,6 +15,6 @@ namespace Anomaly
         public AnomalyType type;
         public string anomalyName;
         [AssetsOnly]
-        public GameObject problemPrefab;
+        public AssetReference anomalyReference;
     }
 }

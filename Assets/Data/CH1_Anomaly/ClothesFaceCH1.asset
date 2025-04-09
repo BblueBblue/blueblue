@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   anomalyName: 1ClothesFaceCH1
-  problemPrefab: {fileID: 4712659753160543793, guid: 917d3df4777a46245b933877a285abe3,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 917d3df4777a46245b933877a285abe3
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

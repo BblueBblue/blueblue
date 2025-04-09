@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 8
   anomalyName: 3Bug
-  problemPrefab: {fileID: 6580940162622401731, guid: 5fb974a18aad6b241b5e5e11506a8495,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 5fb974a18aad6b241b5e5e11506a8495
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

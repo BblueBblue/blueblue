@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4ComputerJumpScareCH4
-  problemPrefab: {fileID: 9046911566650250200, guid: d51bb01473c1ecc478cde728b5647c90,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: d51bb01473c1ecc478cde728b5647c90
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

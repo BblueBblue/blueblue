@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4AddHorrorToy
-  problemPrefab: {fileID: 2697444446713548196, guid: 2e3e0b41dfe383640b0bc12da22b6618,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 2e3e0b41dfe383640b0bc12da22b6618
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

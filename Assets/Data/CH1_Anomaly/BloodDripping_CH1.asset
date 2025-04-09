@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   anomalyName: 1BloodDripping_CH1
-  problemPrefab: {fileID: 7159709632291542350, guid: 5dc6d767fdd9b6e4e9f72ef9e34b0cc0,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 5dc6d767fdd9b6e4e9f72ef9e34b0cc0
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

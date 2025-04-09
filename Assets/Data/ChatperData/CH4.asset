@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageName: "\uC7A5\uB144\uAE30"
   type: 16
-  defaultPrefab: {fileID: 8241887383551660762, guid: 80d8f7e7b43534b32916a2583ad4b309,
-    type: 3}
+  defaultReference:
+    m_AssetGUID: 80d8f7e7b43534b32916a2583ad4b309
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   problems:
   - {fileID: 11400000, guid: a29c83b22cb03e44c8a13647358490fc, type: 2}
   - {fileID: 11400000, guid: 25983b3ca6df9e040986257d825f55fb, type: 2}
@@ -31,3 +34,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9aa7260bcbe4f0b4386aa7cf3e2b9ab5, type: 2}
   - {fileID: 11400000, guid: f3df8afb4ed77f14b86004e0f8057c24, type: 2}
   - {fileID: 11400000, guid: 8e7f967a49d268f43b55a6b9967a14ad, type: 2}
+  - {fileID: 11400000, guid: 6c22f63b6dd8ad54aaf2f8bb8f322e24, type: 2}

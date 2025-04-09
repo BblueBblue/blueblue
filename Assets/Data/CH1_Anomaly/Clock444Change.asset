@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   anomalyName: 1Clock444Change
-  problemPrefab: {fileID: 3322512122817435081, guid: 9d799abbe1e765748a969831c7818b70,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 9d799abbe1e765748a969831c7818b70
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

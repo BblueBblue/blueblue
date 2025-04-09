@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4ToyFaceAway
-  problemPrefab: {fileID: 8808678402728802766, guid: 45e12d59642b88546a6a671be3a08453,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 45e12d59642b88546a6a671be3a08453
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

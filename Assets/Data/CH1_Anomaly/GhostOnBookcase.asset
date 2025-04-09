@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   anomalyName: 1GhostOnBookcase
-  problemPrefab: {fileID: 5690710820719925774, guid: 52d16cbacdaa6a0469844964fae22071,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 52d16cbacdaa6a0469844964fae22071
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

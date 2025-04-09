@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 4
   anomalyName: 2PCRoomScreenChange
-  problemPrefab: {fileID: 6507657604766942060, guid: b7fb9dff5cb1a91438c1b38095ea5c9f,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: b7fb9dff5cb1a91438c1b38095ea5c9f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

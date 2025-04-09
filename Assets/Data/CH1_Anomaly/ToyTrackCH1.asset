@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   anomalyName: 1ToyTrackCH1
-  problemPrefab: {fileID: 750675895981952354, guid: 8ff9524e27f1b9e45b7e5d3fd77ec43f,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 8ff9524e27f1b9e45b7e5d3fd77ec43f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

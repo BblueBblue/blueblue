@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 8
   anomalyName: 3Thief
-  problemPrefab: {fileID: 420975121849242804, guid: c0617da5e2a48b74891f865ba84d9cba,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: c0617da5e2a48b74891f865ba84d9cba
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

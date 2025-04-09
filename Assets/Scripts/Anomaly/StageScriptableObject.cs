@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using Random = UnityEngine.Random;
 
 namespace Anomaly
@@ -15,7 +16,7 @@ namespace Anomaly
         [EnumToggleButtons, HideLabel]
         public AnomalyType type;
         [AssetsOnly]
-        public GameObject defaultPrefab;
+        public AssetReference defaultReference;
         public List<AnomalyScriptableObject> problems;
         
 #if UNITY_EDITOR

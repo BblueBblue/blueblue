@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4Table_Dirty
-  problemPrefab: {fileID: 966621010755991720, guid: 47a7c95c2439904429d078e60da9309e,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 47a7c95c2439904429d078e60da9309e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

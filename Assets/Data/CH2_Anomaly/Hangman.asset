@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 4
   anomalyName: 2Hangman
-  problemPrefab: {fileID: 6140859471416171266, guid: 95222e4de4393d34aaa656252e2e57ed,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 95222e4de4393d34aaa656252e2e57ed
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

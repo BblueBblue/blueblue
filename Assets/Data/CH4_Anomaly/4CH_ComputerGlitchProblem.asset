@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4CH_ComputerGlitchProblem
-  problemPrefab: {fileID: 2078675661424322656, guid: cbf14aba09d422b4f90538d762a5317c,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: cbf14aba09d422b4f90538d762a5317c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

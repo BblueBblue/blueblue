@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageName: "\uC720\uC544\uAE30"
   type: 2
-  defaultPrefab: {fileID: 8241887383551660762, guid: 99f8fe26392c4a64ba4ff2c08db496ae,
-    type: 3}
+  defaultReference:
+    m_AssetGUID: 99f8fe26392c4a64ba4ff2c08db496ae
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   problems:
   - {fileID: 11400000, guid: 6ff1e26a73f8ad443b60fb26af0ad812, type: 2}
   - {fileID: 11400000, guid: ae2e158bf535b9348a61737eb38621c7, type: 2}
@@ -33,3 +36,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 72f07df6cdeb86845aa0b6759cb9f3ee, type: 2}
   - {fileID: 11400000, guid: 378050f4a0e00f244ad86d3ba28a712c, type: 2}
   - {fileID: 11400000, guid: dfaefb506ac253145b27d195bcef49ea, type: 2}
+  - {fileID: 11400000, guid: e157d8cfbd22de049b2519c9b7f01aae, type: 2}
+  - {fileID: 11400000, guid: e157d8cfbd22de049b2519c9b7f01aae, type: 2}
+  - {fileID: 11400000, guid: 6ff1e26a73f8ad443b60fb26af0ad812, type: 2}
+  - {fileID: 11400000, guid: 6ff1e26a73f8ad443b60fb26af0ad812, type: 2}
+  - {fileID: 11400000, guid: e157d8cfbd22de049b2519c9b7f01aae, type: 2}
+  - {fileID: 11400000, guid: 6ff1e26a73f8ad443b60fb26af0ad812, type: 2}

@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 8
   anomalyName: 3Store_Dirty
-  problemPrefab: {fileID: 3449480038240791301, guid: 9550bea298943d348b9bffb525355ef6,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 9550bea298943d348b9bffb525355ef6
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

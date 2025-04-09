@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4CH_BlueScreenProblem
-  problemPrefab: {fileID: 263098809035900272, guid: 3217dee9f4c6ba441a081e348ff42a7e,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 3217dee9f4c6ba441a081e348ff42a7e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

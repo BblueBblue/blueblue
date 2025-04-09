@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4PhotoFrameChange_DaddyGone
-  problemPrefab: {fileID: 6441469991534114503, guid: f38a5125b2ac9914facd17bd05791a7f,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: f38a5125b2ac9914facd17bd05791a7f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

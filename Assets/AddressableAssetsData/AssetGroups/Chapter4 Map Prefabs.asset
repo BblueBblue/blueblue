@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Chapter4 Map Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Chapter4 Map Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7ccb2aacb7fab09428dbc408927211eb
+  m_SerializeEntries:
+  - m_GUID: 80d8f7e7b43534b32916a2583ad4b309
+    m_Address: Assets/Prefabs/Map/DefaultMaps/DefaultMap_4Ch.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57794b1c416c29046af3d84762644680
+    m_Address: Assets/Prefabs/Anomalys/Ch4/ComputerTurnOffCH4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e3e0b41dfe383640b0bc12da22b6618
+    m_Address: Assets/Prefabs/Anomalys/Ch4/AddHorrorToy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45e12d59642b88546a6a671be3a08453
+    m_Address: Assets/Prefabs/Anomalys/Ch4/ToyFaceAway.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47a7c95c2439904429d078e60da9309e
+    m_Address: Assets/Prefabs/Anomalys/Ch4/Table_Dirty.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbf14aba09d422b4f90538d762a5317c
+    m_Address: Assets/Prefabs/Anomalys/Ch4/4CH_ComputerGlitchProblem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d51bb01473c1ecc478cde728b5647c90
+    m_Address: Assets/Prefabs/Anomalys/Ch4/ComputerJumpScareCH4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82854fc312a40394da2fd58f6bf7fae6
+    m_Address: Assets/Prefabs/Anomalys/Ch4/EyeTrack.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9066ab82a3bcdd4abd5b77815c553e6
+    m_Address: Assets/Prefabs/Anomalys/Ch4/SuicideCH4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7aeeb1ec2d279b4394a5a29a16e1a3d
+    m_Address: Assets/Prefabs/Anomalys/Ch4/TV_Ghost.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3217dee9f4c6ba441a081e348ff42a7e
+    m_Address: Assets/Prefabs/Anomalys/Ch4/4CH_BlueScreenProblem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c30d124d1522c8d41be0bb9e64d2d77f
+    m_Address: Assets/Prefabs/Anomalys/Ch4/Book4CH.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f38a5125b2ac9914facd17bd05791a7f
+    m_Address: Assets/Prefabs/Anomalys/Ch4/PhotoFrameChange_DaddyGone.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d62ab2fdc59f8a8458f3c4e25cd14cdb
+    m_Address: Assets/Prefabs/Anomalys/Ch4/Table_Retire.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db1804070bd668b4db300ddd9d1efb35
+    m_Address: Assets/Prefabs/Anomalys/Ch4/ToyChange_Message.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b73e6b5ca2d234479081c585c7fc66b
+    m_Address: Assets/Prefabs/Anomalys/Ch4/PhoneCH4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 4 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 903625de6cdaffd429df2192eaaff63f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5d057de7c4a6ed24c9692ad1cf9cad31, type: 2}
+    - {fileID: 11400000, guid: be08b4453021b614c995c62dd9b036d3, type: 2}

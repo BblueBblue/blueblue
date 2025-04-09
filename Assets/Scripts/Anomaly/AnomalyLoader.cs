@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
@@ -11,6 +12,7 @@ using Utility;
 using Random = UnityEngine.Random;
 using Steamworks;
 using Steamworks.Data;
+using UnityEngine.AddressableAssets;
 
 namespace Anomaly
 {
@@ -27,6 +29,7 @@ namespace Anomaly
         private int sequenceProblem;
         private bool isLoadNewMap = false;
         private BalancedRandomSelector<int> randomSelector;
+        private int stageCleared;
 
         [SerializeField]
         private AnomalyClearDataHandler anomalyDataHandler;
@@ -45,14 +48,15 @@ namespace Anomaly
             }
         }
 
-        public void SetAnomaly(int stageIdx)
+        public async void SetAnomaly(int stageIdx)
         {
             this.stageIdx = stageIdx;
             stageFloor = 1;
             sequenceProblem = 1;
             currentMapIdx = -1;
-            LoadProblem(stages[stageIdx].defaultPrefab, false);
             isLoadNewMap = true;
+            await LoadProblem(stages[stageIdx].defaultReference, false);
+            LoadChapterAssets(this.stageIdx + 1);
             UnloadProblem();
             
             randomSelector = new BalancedRandomSelector<int>();
@@ -96,6 +100,7 @@ namespace Anomaly
                 }
                 if (++stageFloor == stageThreshold)
                 {
+                    stageCleared = 1;
                     // 다음 스테이지 로드
                     stageFloor = 1;
 
@@ -138,6 +143,11 @@ namespace Anomaly
                         return;
                     }
 
+                    if (stageIdx + 1 != stages.Count)
+                    {
+                        LoadChapterAssets(this.stageIdx + 1);
+                    }
+
                     randomSelector = new BalancedRandomSelector<int>();
                     for (int i = 0; i < stages[stageIdx].problems.Count; i++)
                     {
@@ -145,8 +155,8 @@ namespace Anomaly
                     }
                     
                     currentMapIdx = -1;
-                    sequenceProblem = 0;
-                    LoadProblem(stages[stageIdx].defaultPrefab, playerChoice);
+                    sequenceProblem = 1;
+                    LoadProblem(stages[stageIdx].defaultReference, playerChoice);
                     return;
                 }
             }
@@ -189,7 +199,7 @@ namespace Anomaly
                 // 정상 챕터 사용
                 sequenceProblem++;
                 currentMapIdx = -1;
-                LoadProblem(stages[stageIdx].defaultPrefab, playerChoice);
+                LoadProblem(stages[stageIdx].defaultReference, playerChoice);
             }
             else
             {
@@ -198,7 +208,7 @@ namespace Anomaly
             }
         }
         
-        public void LoadProblem(AnomalyScriptableObject problemData, bool isLeft)
+        public async void LoadProblem(AnomalyScriptableObject problemData, bool isLeft)
         {
 #if UNITY_EDITOR
             if (!EditorApplication.isPlaying)
@@ -207,10 +217,14 @@ namespace Anomaly
                 return;
             }
 #endif
-            
             // 이상현상 생성. (혹은 가져오기)
             Transform spawnTransform = currentProblemMap.loadTransform;
-            GameObject problemMapObject = Instantiate(problemData.problemPrefab, spawnTransform.position, spawnTransform.rotation);
+            if (!problemData.anomalyReference.IsValid())
+            {
+                await LoadChapterAssets(stageIdx);
+            }
+            
+            GameObject problemMapObject = Instantiate(problemData.anomalyReference.Asset as GameObject, spawnTransform.position, spawnTransform.rotation);
             nextProblemMap = problemMapObject.GetComponent<AnomalyMapHandler>();
             // 이상현상 리셋.
             nextProblemMap.ResetProblem();
@@ -221,7 +235,7 @@ namespace Anomaly
             currentProblemMap.mainDoor.OpenDoor();
         }
         
-        public void LoadProblem(GameObject problemMap, bool isLeft)
+        public async Task LoadProblem(AssetReference problemMap, bool isLeft)
         {
 #if UNITY_EDITOR
             if (!EditorApplication.isPlaying)
@@ -232,7 +246,11 @@ namespace Anomaly
 #endif
             // 이상현상 생성. (혹은 가져오기)
             Transform spawnTransform = currentProblemMap.loadTransform;
-            GameObject problemMapObject = Instantiate(problemMap, spawnTransform.position, spawnTransform.rotation);
+            if (!problemMap.IsValid())
+            {
+                await LoadChapterAssets(stageIdx);
+            }
+            GameObject problemMapObject = Instantiate(problemMap.Asset as GameObject, spawnTransform.position, spawnTransform.rotation);
             nextProblemMap = problemMapObject.GetComponent<AnomalyMapHandler>();
             // 이상현상 리셋.
             nextProblemMap.ResetProblem();
@@ -279,7 +297,17 @@ namespace Anomaly
             currentProblemMap = nextProblemMap;
             
             beforeProblemMap.ResetProblem();
+            
             isLoadNewMap = false;
+            
+            // 불필요한 챕터 Release
+            if (stageCleared-- == 0)
+            {
+                if (stageIdx > 1 && stageIdx != stages.Count)
+                {
+                    UnLoadChapterAssets(stageIdx - 1);
+                }
+            }
         }
         
         private AnomalyScriptableObject GetRandomProblem()
@@ -288,6 +316,43 @@ namespace Anomaly
             int randomIdx = randomSelector.GetRandomItem();
             currentMapIdx = randomIdx;
             return stages[stageIdx].problems[randomIdx];
+        }
+        
+        private async Task LoadChapterAssets(int chapterNum)
+        {
+            StageScriptableObject stage = stages[chapterNum];
+
+            if (!stage.defaultReference.IsValid())
+            {
+                await stage.defaultReference.LoadAssetAsync<GameObject>().Task;
+            }
+            
+            foreach (var anomaly in stage.problems)
+            {
+                if (!anomaly.anomalyReference.IsValid())
+                {
+                    Debug.Log("loading anomaly " + anomaly.anomalyName);
+                    await anomaly.anomalyReference.LoadAssetAsync<GameObject>().Task;
+                }
+            }
+        }
+        
+        private void UnLoadChapterAssets(int chapterNum)
+        {
+            StageScriptableObject stage = stages[chapterNum];
+
+            if (stage.defaultReference.IsValid())
+            {
+                stage.defaultReference.ReleaseAsset();
+            }
+            
+            foreach (var anomaly in stage.problems)
+            {
+                if (anomaly.anomalyReference.IsValid())
+                {
+                    anomaly.anomalyReference.ReleaseAsset();
+                }
+            }
         }
     }
 

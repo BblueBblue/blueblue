@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 4
   anomalyName: 2PCRoomTrash
-  problemPrefab: {fileID: 4753718451129473942, guid: 7cfcb66f55421384486d7af464c90633,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 7cfcb66f55421384486d7af464c90633
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

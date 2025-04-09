@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Chapter1 Map Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Chapter1 Map Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bcef7b944773e3c4d967682602cf3633
+  m_SerializeEntries:
+  - m_GUID: 99f8fe26392c4a64ba4ff2c08db496ae
+    m_Address: Assets/Prefabs/Map/DefaultMaps/DefaultMap.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ff9524e27f1b9e45b7e5d3fd77ec43f
+    m_Address: Assets/Prefabs/Anomalys/Ch1/ToyTrack.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39e1d7a9ef8065549a875e8dfb3e78ac
+    m_Address: Assets/Prefabs/Anomalys/Ch1/BlackoutSight.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28042b17a27cd7c469f2478b1203bdb0
+    m_Address: Assets/Prefabs/Anomalys/Ch1/PhotoframeChange_Divorce.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2efc77f428b96c04dad8277d9814d625
+    m_Address: Assets/Prefabs/Anomalys/Ch1/1CH_WaterRiseProblem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14f5c4733594a3445939a0ef0ec302c3
+    m_Address: Assets/Prefabs/Anomalys/Ch1/ToyChange.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c22d4ec6181fb9a43be7832113cbac46
+    m_Address: Assets/Prefabs/Anomalys/Ch1/Ball.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b0533d4b623a2b4cb89837e907d61c5
+    m_Address: Assets/Prefabs/Anomalys/Ch1/ClothesDeleteCH1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ffd8a2943e7181428a581eeb1c97bc3
+    m_Address: Assets/Prefabs/Anomalys/Ch1/Diary.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1b079594af64b74c94027b1b636c6fb
+    m_Address: Assets/Prefabs/Anomalys/Ch1/ClothesDirtyCH1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 527f8d94e4f64694e9bfa9b429fc1918
+    m_Address: Assets/Prefabs/Anomalys/Ch1/GhostHand.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 917d3df4777a46245b933877a285abe3
+    m_Address: Assets/Prefabs/Anomalys/Ch1/ClothesFaceCH1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52d16cbacdaa6a0469844964fae22071
+    m_Address: Assets/Prefabs/Anomalys/Ch1/GhostOnBookcase.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2498ad3373caf2f4e898f75d41be46c4
+    m_Address: Assets/Prefabs/Anomalys/Ch1/PhotoFrameChange_PlayerDelete.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d799abbe1e765748a969831c7818b70
+    m_Address: Assets/Prefabs/Anomalys/Ch1/Clock444Change.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77f75c516c47aa84095dc5d98866c63b
+    m_Address: Assets/Prefabs/Anomalys/Ch1/ClothesColorChangeCH1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dc6d767fdd9b6e4e9f72ef9e34b0cc0
+    m_Address: Assets/Prefabs/Anomalys/Ch1/1CH_BloodDripping.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 1 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 903625de6cdaffd429df2192eaaff63f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5a55675410e091c488deb8f7d76d9103, type: 2}
+    - {fileID: 11400000, guid: 1f8b578738c85d4449969e35886d85f0, type: 2}

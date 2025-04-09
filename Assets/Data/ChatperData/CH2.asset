@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageName: "\uCCAD\uC18C\uB144\uAE30"
   type: 4
-  defaultPrefab: {fileID: 8241887383551660762, guid: 1a229441cffa447be8682b47acf55f14,
-    type: 3}
+  defaultReference:
+    m_AssetGUID: 1a229441cffa447be8682b47acf55f14
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   problems:
   - {fileID: 11400000, guid: 9c6cdc47a47329b46b1c140965118669, type: 2}
   - {fileID: 11400000, guid: 2133710a051e32d4e944c915db87078f, type: 2}
@@ -33,4 +36,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f1b0b026671c5d3458feaf5459fee376, type: 2}
   - {fileID: 11400000, guid: 08aea1a8eb374464b9b99b7ebcad8686, type: 2}
   - {fileID: 11400000, guid: 593d4c8454b5c6e42bad8d60f89f59ca, type: 2}
-  - {fileID: 11400000, guid: 11d3cabe655ed74428f3e9cd3fb84344, type: 2}
+  - {fileID: 11400000, guid: 839173ca6b96d3443ad5607d1137f3bd, type: 2}
+  - {fileID: 11400000, guid: 2133710a051e32d4e944c915db87078f, type: 2}

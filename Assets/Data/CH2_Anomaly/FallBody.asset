@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 4
   anomalyName: 2FallBody
-  problemPrefab: {fileID: 4728878070636861511, guid: c1c66c8084e34974f9792c99e9e156e5,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: c1c66c8084e34974f9792c99e9e156e5
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

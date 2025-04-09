@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 4
   anomalyName: 2SchoolBell
-  problemPrefab: {fileID: 3676977303899488767, guid: 5fef11ed50f19ad45b6fad2f85b12067,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 5fef11ed50f19ad45b6fad2f85b12067
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

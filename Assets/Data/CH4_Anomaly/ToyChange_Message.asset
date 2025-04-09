@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4ToyChange_Message
-  problemPrefab: {fileID: 267627801032553012, guid: db1804070bd668b4db300ddd9d1efb35,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: db1804070bd668b4db300ddd9d1efb35
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

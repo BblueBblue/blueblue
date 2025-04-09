@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   anomalyName: 1PhotoframeChange_Divorce
-  problemPrefab: {fileID: 7274315539320045932, guid: 28042b17a27cd7c469f2478b1203bdb0,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 28042b17a27cd7c469f2478b1203bdb0
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

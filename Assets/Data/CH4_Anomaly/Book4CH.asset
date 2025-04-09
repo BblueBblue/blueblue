@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 16
   anomalyName: 4Book4CH
-  problemPrefab: {fileID: 2252550319836531580, guid: c30d124d1522c8d41be0bb9e64d2d77f,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: c30d124d1522c8d41be0bb9e64d2d77f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Chapter3 Map Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Chapter3 Map Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d568040d4a28d43408f8b4ea206f6d95
+  m_SerializeEntries:
+  - m_GUID: e8cbd6674db464e4c9434dc45977a037
+    m_Address: Assets/Prefabs/Anomalys/Ch3/ClothesFaceCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19e85dc00fdd16b4f98501985444fa9b
+    m_Address: Assets/Prefabs/Anomalys/Ch3/ClothesColorChangeCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfc0f11161d6e9547b36eb17b27cac00
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Arny_Trumpet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2a791b8dfec43047873db0669f09eb6
+    m_Address: Assets/Prefabs/Anomalys/Ch3/LightFlickeringCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a17af3d7fd418b34e91cfeee724071e7
+    m_Address: Assets/Prefabs/Anomalys/Ch3/PhotoFrameChange_HappyFamily.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba7c6f2ad9d5344458ffb8ebb14b9429
+    m_Address: Assets/Prefabs/Anomalys/Ch3/WindowOpeningCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6da7e25e34df80a48b7e1f0f5dd82ac0
+    m_Address: Assets/Prefabs/Anomalys/Ch3/3CH_ComputerGlitchProblem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32b311b2350e17842a51fd9071d561e1
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Army_HairClipper.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fb974a18aad6b241b5e5e11506a8495
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Bug.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e791409a9fb02de40b04c6ccd8d0635f
+    m_Address: Assets/Prefabs/Anomalys/Ch3/ComputerJumpScareCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cd584b297cf00842bf00beaa17c2714
+    m_Address: Assets/Prefabs/Anomalys/Ch3/3CH_BlueScreenProblem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cabcaa5b067bd9438229c5f19c8964b
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Store_Box.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b2ad1ced92431344ba64877b7684c13
+    m_Address: Assets/Prefabs/Anomalys/Ch3/ClothesDeleteCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce7b15585ed791d46ad4b2912ec89901
+    m_Address: Assets/Prefabs/Anomalys/Ch3/ComputerTurnOffCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c88748a481a5a614ebaa4a7471bde3c6
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Phone.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f468027f4c7781349b45e361c00f7c18
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Poor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9550bea298943d348b9bffb525355ef6
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Store_Dirty.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e3a6748ef4941348a2c1e878342fdeb
+    m_Address: Assets/Prefabs/Anomalys/Ch3/ClothesDirtyCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0617da5e2a48b74891f865ba84d9cba
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Thief.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1f34a96e8b7ea844bd7b04986186150
+    m_Address: Assets/Prefabs/Anomalys/Ch3/SuicideCH3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6173262f42e0a04fa14ef00bbd91a9a
+    m_Address: Assets/Prefabs/Anomalys/Ch3/Army_CabinetArmory.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13cf5d27cd2bb47859a7b3b39c10635a
+    m_Address: Assets/Prefabs/Map/DefaultMaps/DefaultMap_3Ch.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Chapter 3 Map
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 903625de6cdaffd429df2192eaaff63f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 472f594286bae7344b3e34b0c3be3f17, type: 2}
+    - {fileID: 11400000, guid: 6717aef0ac19cb04e8ac80d14e35a992, type: 2}

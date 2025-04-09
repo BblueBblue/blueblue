@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 4
   anomalyName: 2Flower
-  problemPrefab: {fileID: 2968271163295308057, guid: 71cc020930623594b94d039090e50fba,
-    type: 3}
+  anomalyReference:
+    m_AssetGUID: 71cc020930623594b94d039090e50fba
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
