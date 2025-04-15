@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c242a09d463614a41b3e44a4aaa2e27d, type: 3}
+  m_Name: page_Computer_BlueScreenCH3
+  m_EditorClassIdentifier: 
+  anomalyType: 8
+  anomalyData: {fileID: 11400000, guid: aed46a45a6727a2408febdc120f8466e, type: 2}
+  photo: {fileID: 21300000, guid: c56decb0588ff754a9fb716b8316b6c7, type: 3}
+  description: "\uCEF4\uD4E8\uD130 \uD654\uBA74\uC774 \uAC11\uC790\uAE30 \uD30C\uB797\uAC8C
+    \uBB3C\uB4E4\uC5C8\uB2E4. \uC544\uBB34 \uAE00\uC790\uB3C4, \uADF8\uB9BC\uB3C4
+    \uBCF4\uC774\uC9C0 \uC54A\uB294 \uD145 \uBE48 \uD30C\uB780\uBE5B\uC774 \uAC00\uB4DD\uD588\uB2E4.
+    \uC190\uC744 \uC6C0\uC9C1\uC5EC\uB3C4, \uBC84\uD2BC\uC744 \uB20C\uB7EC\uB3C4
+    \uC544\uBB34 \uBCC0\uD654\uB3C4 \uC5C6\uC5C8\uB2E4.  \uC800\uC7A5\uC740 \uD588\uB358\uAC00?
+    \uC815\uB9D0 \uC544\uBB34\uAC83\uB3C4 \uD558\uAE30 \uC2EB\uB2E4. \uB05D\uC5C6\uB294
+    \uC808\uB9DD\uAC10\uC774 \uB098\uB97C \uC9D3\uB204\uB978\uB2E4."

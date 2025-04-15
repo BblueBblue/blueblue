@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c242a09d463614a41b3e44a4aaa2e27d, type: 3}
+  m_Name: page_GhostHand
+  m_EditorClassIdentifier: 
+  anomalyType: 2
+  anomalyData: {fileID: 11400000, guid: 7ea02da1099a23149820220132736b73, type: 2}
+  photo: {fileID: 21300000, guid: 9e77a588608c60b46b61ccfdeb8e7534, type: 3}
+  description: "\uC624\uB298\uB3C4 \uCE68\uB300 \uBC11\uC774 \uB108\uBB34 \uBB34\uC11C\uC6E0\uC5B4.
+    \uC798 \uB54C\uB9C8\uB2E4 \uBC11\uC5D0\uC11C \uB204\uAC00 \uB098\uB97C \uCCD0\uB2E4\uBCF4\uB294
+    \uAC83 \uAC19\uC544. \uD63C\uC790\uC11C \uC790\uB2C8\uAE4C \uB354 \uBB34\uC11C\uC6B4
+    \uC0DD\uAC01\uC774 \uB4DC\uB294 \uAC83 \uAC19\uC544. \uBC1C\uC744 \uCE68\uB300
+    \uBC16\uC73C\uB85C \uB0B4\uBC00\uBA74 \uC7A1\uC544\uAC08\uAE4C \uBD10 \uAF2D\uAF2D
+    \uC228\uAE30\uACE0 \uC7A4\uC5B4. \uB0B4\uC77C \uB0AE\uC5D0 \uAC00\uC11C \uD55C
+    \uBC88 \uC0B4\uC9DD \uB4E4\uC5EC\uB2E4\uBD10\uC57C\uACA0\uC5B4, \uADFC\uB370
+    \uB610 \uBCF4\uBA74 \uB354 \uBB34\uC11C\uC6B8\uAE4C?"

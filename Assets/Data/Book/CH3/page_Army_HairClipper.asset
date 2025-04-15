@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c242a09d463614a41b3e44a4aaa2e27d, type: 3}
-  m_Name: page_ArmyHairClipper
+  m_Name: page_Army_HairClipper
   m_EditorClassIdentifier: 
   anomalyType: 8
   anomalyData: {fileID: 11400000, guid: 340b55c5cd4a2764eb6c1aba83ef9efb, type: 2}

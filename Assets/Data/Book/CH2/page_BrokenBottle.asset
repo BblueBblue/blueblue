@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c242a09d463614a41b3e44a4aaa2e27d, type: 3}
+  m_Name: page_BrokenBottle
+  m_EditorClassIdentifier: 
+  anomalyType: 4
+  anomalyData: {fileID: 11400000, guid: 60fd7f661bb0bfd42b1feb68fb3e4537, type: 2}
+  photo: {fileID: 21300000, guid: 9e459707bcf7044409f8d238d17e670c, type: 3}
+  description: "\uC544\uBC84\uC9C0\uAC00 \uC220\uC744 \uADF8\uB9CC \uB4DC\uC168\uC73C\uBA74
+    \uC88B\uACA0\uB2E4. \uC220\uC774 \uB4E4\uC5B4\uAC00\uBA74 \uC131\uACA9\uC774
+    \uB4A4\uBC14\uB00C\uC2E0\uB2E4. \uC220\uBCD1\uC744 \uC9D1\uC5B4 \uB358\uC9C0\uACE0
+    \uD30C\uD3B8\uC774 \uC5EC\uAE30\uC800\uAE30 \uB0A0\uC544\uB2E4\uB2CC\uB2E4. \uC9C0\uC625\uC774\uB2E4..\uD56D\uC0C1
+    \uBAB8\uC744 \uC6C5\uD06C\uB9AC\uACE0 \uC81C\uBC1C \uAFC8\uC774\uAE30\uB97C \uBC14\uB780\uB2E4."

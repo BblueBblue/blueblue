@@ -18,16 +18,22 @@ MonoBehaviour:
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: dae77398647e98244a8e6eba0347873b, type: 2}
     - {fileID: 11400000, guid: 5b8bba7ac6b3c364999bb8d3e2df7c98, type: 2}
+    - {fileID: 11400000, guid: ab20d794f9252d246a7bb158c1080baf, type: 2}
     - {fileID: 11400000, guid: c443167a25dbf864cbdd277794574709, type: 2}
     - {fileID: 11400000, guid: 3f42787946a41d641a07cb1dbbbb8e97, type: 2}
     - {fileID: 11400000, guid: 0b1f57da04157494e88ed5c288240800, type: 2}
     - {fileID: 11400000, guid: 2c49c6b8a793cdb419e296ba2d1772cd, type: 2}
     - {fileID: 11400000, guid: d31402736b1e1124db5f3135b35e5bbb, type: 2}
+    - {fileID: 11400000, guid: 3708300c35cd99749842c471d80c22b3, type: 2}
+    - {fileID: 11400000, guid: 613dd1c3d881324408e30a4932b023c1, type: 2}
     - {fileID: 11400000, guid: 14febbe47d60e6541a31cc86d355c5bf, type: 2}
+    - {fileID: 11400000, guid: 9135f2cd5b39e23468ed8e5c284101b0, type: 2}
+    - {fileID: 11400000, guid: 957bb1252228a0943b4d1e952549d76b, type: 2}
     - {fileID: 11400000, guid: a2c6ddf53cd6daf4982523ec7b36f150, type: 2}
     - {fileID: 11400000, guid: 73c1c3b0a0b825141879b9aee331b4ad, type: 2}
     - {fileID: 11400000, guid: 6bfde998340b6c24e8928e06b6249fed, type: 2}
     - {fileID: 11400000, guid: 9f14d60831ca28544ac8c0b95857f935, type: 2}
+    - {fileID: 11400000, guid: a39bdc0cd02b234438eb190ca9ccbf2e, type: 2}
     - {fileID: 11400000, guid: 5f31b23b3208a524abbee5a3a96ef813, type: 2}
     - {fileID: 11400000, guid: 0ced377c3006d6c468809e186aa524c5, type: 2}
     - {fileID: 11400000, guid: 0a75cff2cf7b8dd46860217cc480b1ff, type: 2}
@@ -38,10 +44,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 144d0c96566176b4698422ab4f549ed7, type: 2}
     - {fileID: 11400000, guid: 2eeecf26d823c514b987f7e38848e2e9, type: 2}
     - {fileID: 11400000, guid: 77074e426c9304049a71c7bf35a11e41, type: 2}
+    - {fileID: 11400000, guid: db96fd5580e9faf4897d1a391ec21833, type: 2}
     - {fileID: 11400000, guid: d98de972009494343a3d50d0282e8016, type: 2}
     - {fileID: 11400000, guid: 38d924110f73dbf4b87f16d26b318b5f, type: 2}
     - {fileID: 11400000, guid: 2080478a480dce549b751779a62d4128, type: 2}
+    - {fileID: 11400000, guid: 5f2b1a3979fe50744be933a8863e41e6, type: 2}
+    - {fileID: 11400000, guid: 19adb902533b0b8458654cd0e01a7570, type: 2}
     - {fileID: 11400000, guid: 6296bb26c26d0c146a8209ddde5f0950, type: 2}
+    - {fileID: 11400000, guid: 85988fe2f5b879f40b12237364f0a58b, type: 2}
+    - {fileID: 11400000, guid: a3227ec2b23fa644d867b6b4684c1be2, type: 2}
     - {fileID: 11400000, guid: 1ca324093f0766543856029b058169ad, type: 2}
     - {fileID: 11400000, guid: 58012a1b638c956439825fae1365e159, type: 2}
     - {fileID: 11400000, guid: d3da53198f759cb41a4225909decbcf4, type: 2}
@@ -49,12 +60,18 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 69a20f44123e03642930e7db81f61f5c, type: 2}
     - {fileID: 11400000, guid: f9e5ff8b8ad9789468cdb9203e914f2e, type: 2}
     - {fileID: 11400000, guid: ceec34a999e56f84da97735aed1070a7, type: 2}
+    - {fileID: 11400000, guid: cc08b682c20e1b84696f7667c082a3a3, type: 2}
+    - {fileID: 11400000, guid: eb7c85a50b2ef344a9e729554ff4dbe4, type: 2}
+    - {fileID: 11400000, guid: 239f8550cbfb8fc4b988c7c0a54dcad1, type: 2}
+    - {fileID: 11400000, guid: 26f9f2c80c7dca14196881d2296f9fca, type: 2}
     - {fileID: 11400000, guid: 77dbaa371cd60cc408fe2af683d0625a, type: 2}
+    - {fileID: 11400000, guid: 003d218ab40870a42b6be617c5fd000c, type: 2}
     - {fileID: 11400000, guid: 004dac406ddcdb6429bd23fd783eb391, type: 2}
     - {fileID: 11400000, guid: 41f908532fafcc8458328d1efb09d921, type: 2}
     - {fileID: 11400000, guid: 740ec8224991c4a48951958adec32546, type: 2}
     - {fileID: 11400000, guid: 7f04171b2adf3cd4b8bfff796c5e094c, type: 2}
     - {fileID: 11400000, guid: 4e5ffe5eba320ac4ab69cd3f044837a6, type: 2}
+    - {fileID: 11400000, guid: 4bb73309809c2d943832a20749bc310e, type: 2}
     - {fileID: 11400000, guid: 1b44c31b14825bd4f877db5c7acb1b0d, type: 2}
     - {fileID: 11400000, guid: b7cde0b6f663c0e4e92f51469dee90a9, type: 2}
     - {fileID: 11400000, guid: 1ccecd7ec71448747b2f94c3d75dbe43, type: 2}
@@ -62,6 +79,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: a40bacff911b4f344bd624199306fd7a, type: 2}
     - {fileID: 11400000, guid: 0b2ea56ebc7913647a24fdbd68f4cedc, type: 2}
     - {fileID: 11400000, guid: 8ebc50935b63a1745843cdc54396b921, type: 2}
+    - {fileID: 11400000, guid: 3a2327dc84bdd89408612dc258e80b52, type: 2}
     - {fileID: 11400000, guid: 3c919f913ae42b146a63d78e4a1004af, type: 2}
     - {fileID: 11400000, guid: 3ee3423e7895ba94f87d6018952196ec, type: 2}
     - {fileID: 11400000, guid: f0f3f8bd2872c9340a11f74328625436, type: 2}
@@ -95,7 +113,7 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 11
+      Data: 16
     - Name: 
       Entry: 10
       Data: 0
@@ -130,6 +148,21 @@ MonoBehaviour:
       Entry: 10
       Data: 10
     - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -151,22 +184,7 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 15
-    - Name: 
-      Entry: 10
-      Data: 11
-    - Name: 
-      Entry: 10
-      Data: 12
-    - Name: 
-      Entry: 10
-      Data: 13
-    - Name: 
-      Entry: 10
-      Data: 14
-    - Name: 
-      Entry: 10
-      Data: 15
+      Data: 20
     - Name: 
       Entry: 10
       Data: 16
@@ -198,29 +216,6 @@ MonoBehaviour:
       Entry: 10
       Data: 25
     - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: System.Collections.Generic.KeyValuePair`2[[Anomaly.AnomalyType, Assembly-CSharp],[System.Collections.Generic.List`1[[Book.PageScriptableObject,
-        Assembly-CSharp]], mscorlib]], mscorlib
-    - Name: 
-      Entry: 3
-      Data: 8
-    - Name: 
-      Entry: 7
-      Data: 3|System.Collections.Generic.List`1[[Book.PageScriptableObject, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 13
-    - Name: 
       Entry: 10
       Data: 26
     - Name: 
@@ -251,15 +246,6 @@ MonoBehaviour:
       Entry: 10
       Data: 35
     - Name: 
-      Entry: 10
-      Data: 36
-    - Name: 
-      Entry: 10
-      Data: 37
-    - Name: 
-      Entry: 10
-      Data: 38
-    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -274,14 +260,23 @@ MonoBehaviour:
         Assembly-CSharp]], mscorlib]], mscorlib
     - Name: 
       Entry: 3
-      Data: 16
+      Data: 8
     - Name: 
       Entry: 7
-      Data: 4|System.Collections.Generic.List`1[[Book.PageScriptableObject, Assembly-CSharp]],
+      Data: 3|System.Collections.Generic.List`1[[Book.PageScriptableObject, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 14
+      Data: 20
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 10
+      Data: 38
     - Name: 
       Entry: 10
       Data: 39
@@ -324,6 +319,83 @@ MonoBehaviour:
     - Name: 
       Entry: 10
       Data: 52
+    - Name: 
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[Anomaly.AnomalyType, Assembly-CSharp],[System.Collections.Generic.List`1[[Book.PageScriptableObject,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 16
+    - Name: 
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Book.PageScriptableObject, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 56
+    - Name: 
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 10
+      Data: 58
+    - Name: 
+      Entry: 10
+      Data: 59
+    - Name: 
+      Entry: 10
+      Data: 60
+    - Name: 
+      Entry: 10
+      Data: 61
+    - Name: 
+      Entry: 10
+      Data: 62
+    - Name: 
+      Entry: 10
+      Data: 63
+    - Name: 
+      Entry: 10
+      Data: 64
+    - Name: 
+      Entry: 10
+      Data: 65
+    - Name: 
+      Entry: 10
+      Data: 66
+    - Name: 
+      Entry: 10
+      Data: 67
+    - Name: 
+      Entry: 10
+      Data: 68
+    - Name: 
+      Entry: 10
+      Data: 69
+    - Name: 
+      Entry: 10
+      Data: 70
     - Name: 
       Entry: 13
       Data: 
