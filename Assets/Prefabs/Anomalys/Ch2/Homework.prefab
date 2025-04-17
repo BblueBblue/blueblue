@@ -43643,6 +43643,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4760833320485865424, guid: 1a229441cffa447be8682b47acf55f14,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4873040324825208480, guid: 1a229441cffa447be8682b47acf55f14,
         type: 3}
       propertyPath: m_IsActive
@@ -43660,8 +43665,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7326520480164440881, guid: 1a229441cffa447be8682b47acf55f14,
         type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 50.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326520480164440881, guid: 1a229441cffa447be8682b47acf55f14,
+        type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.25
+      value: 63.29
       objectReference: {fileID: 0}
     - target: {fileID: 8241887383551660762, guid: 1a229441cffa447be8682b47acf55f14,
         type: 3}
