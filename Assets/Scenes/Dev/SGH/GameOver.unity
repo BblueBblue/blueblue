@@ -414,6 +414,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameOverManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3163864606235420841, guid: 73464adb2219e0f46aebe18f9f8cf8a3,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1855074659}
     - target: {fileID: 3541696027073301378, guid: 73464adb2219e0f46aebe18f9f8cf8a3,
         type: 3}
       propertyPath: m_LocalPosition.x

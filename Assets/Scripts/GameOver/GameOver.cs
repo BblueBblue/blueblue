@@ -15,6 +15,8 @@ namespace gameover
         private DOTweenAnimation gameOverBack;
         [SerializeField]
         private DOTweenAnimation gameOverImg;
+        [SerializeField]
+        private GameObject blood;
 
         [SerializeField]
         private AudioClip fallSound;
@@ -31,12 +33,11 @@ namespace gameover
 
         public void AfterImageDisplayed()
         {
-            gameOverImg.DOPlayBackwards();
+            StartCoroutine(BloodEffect());
         }
 
         public void DisPlayGameOverImage()
         {
-            SoundManager.Instance.PlaySFX(fallSound);
             gameOverImg.DOPlay();
         }
 
@@ -49,6 +50,14 @@ namespace gameover
         {
             yield return new WaitForSeconds(1f);
             DisPlayGameOver();
+        }
+        IEnumerator BloodEffect()
+        {
+            SoundManager.Instance.PlaySFX(fallSound);
+            yield return new WaitForSeconds(0.2f);
+            blood.SetActive(true);
+            yield return new WaitForSeconds(1f);
+            gameOverImg.DOPlayBackwards();
         }
     }
 }
