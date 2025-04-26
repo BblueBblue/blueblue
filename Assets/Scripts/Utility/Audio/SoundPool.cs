@@ -27,6 +27,8 @@ public class SoundPool
 
     public void ChangeMasterVolume(float masterVolume)
     {
+        audioPlayerList.RemoveAll(audioPlayer => audioPlayer == null || audioPlayer.AudioSource == null);
+        
         for (var i = 0; i < audioPlayerList.Count; ++i)
         {
             audioPlayerList[i].ChangeMasterVolume(masterVolume);
