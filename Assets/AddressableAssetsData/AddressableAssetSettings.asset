@@ -35,10 +35,10 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 920a14b60e9a34b4fac170ccf53f29c8
   m_RemoteCatalogLoadPath:
-    m_Id: 
-  m_ContentStateBuildPathProfileVariableName: 
+    m_Id: 2d7b4aa1b8f41034e9fafc2e4f06a677
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
@@ -49,6 +49,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4c2d01a2a66fca2429dda541fd8e9e42, type: 2}
   - {fileID: 11400000, guid: ced144a012fe10d4c98c9ef12804bf5f, type: 2}
   - {fileID: 11400000, guid: ed94458a7e89f9a4c9db17a87a2445df, type: 2}
+  - {fileID: 11400000, guid: 4fcbc4be65baf0247b287120a9e52e67, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -92,6 +93,7 @@ MonoBehaviour:
     - default
     - Locale
     - Locale-en
+    - Locale-ko
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 568474e9ea7e0e14b8b3bc35e03ff694, type: 2}

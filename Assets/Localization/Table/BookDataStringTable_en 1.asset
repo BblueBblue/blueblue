@@ -1,0 +1,646 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: BookDataStringTable_en 1
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0e1eb430fb7668243beccccafa381d9a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 635322368
+    m_Localized: "I played with my ball alone again today.\r\nWhen I kick it hard
+      and it hits the wall, then bounces back\u2014that\u2019s the best part.\r\nI
+      used to play with Dad, but now I have to do it by myself, so it feels a bit
+      lonely.\r\nStill, I like the ball. It listens to me well.\r\nTomorrow, I\u2019m
+      going to practice kicking it even farther!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 673071104
+    m_Localized: "I saw red blood streaming down the wall.\r\nAt first, I thought
+      it was just water, but it kept getting redder\u2014thicker\u2014and it terrified
+      me.\r\nIt was just a dream, but it felt so real.\r\nWhenever I see blood, I
+      feel dizzy, like I can't breathe.\r\nI really, really hate blood."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 677265408
+    m_Localized: "Today, I was looking at some books in Dad\u2019s study when I happened
+      to glance at the clock.\r\nBut the time looked\u2026 strange.\r\nI thought
+      maybe I\u2019d read it wrong, but even when I checked again, it still didn\u2019t
+      seem right.\r\nI started to wonder if I\u2019d been playing too long without
+      realizing it, so I left in a hurry.\r\nI told myself I shouldn\u2019t stay
+      in the study for too long next time."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 677265409
+    m_Localized: "This morning, I looked at the clothes on the hanger, and the color
+      seemed different.\r\r\nIt didn\u2019t look the same as it did yesterday, and
+      I couldn\u2019t stop staring at it.\r\nMaybe I was just seeing things\u2026
+      but I\u2019m not sure.\r\nThe more I think about how the clothes changed, the
+      stranger\u2014and scarier\u2014it feels.\r\nWill it look normal again if I
+      check tomorrow?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459712
+    m_Localized: "Hangers scare me.\r\r\nWhen clothes are hanging on them, they look
+      too much like human\u2026\r\r\nWouldn\u2019t it be better to just get rid of
+      all those clothes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459713
+    m_Localized: "When I looked at my school uniform, the dirty footprints were still
+      there.\r\nSomeone had clearly shoved and stepped on me in the hallway after
+      class\u2014on purpose.\r\nAnd yet, I couldn\u2019t say a word. That\u2019s
+      what made me so angry.\r\nI tried to wash the marks off with water, but they
+      wouldn\u2019t come out easily.\r\nIt felt like those footprints weren\u2019t
+      just on my clothes\u2026 but stamped right onto my pride."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459714
+    m_Localized: "In my dream, the clothes hanger suddenly started moving like a
+      person.\r\nIts arms stretched out and it began chasing me.\r\nI ran, trying
+      to hide, but it kept reaching out, trying to grab me from behind.\r\nThe monster
+      screamed that it was going to kill me, and I was so terrified I couldn\u2019t
+      even scream back.\r\nWhen I woke up, I couldn\u2019t stand to look at the hanger
+      anymore."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459715
+    m_Localized: "Tonight, the room went dark again, and I was so scared.\r\nWhen
+      the lights go out, it feels like something is going to come and get me.\r\nHiding
+      under the covers makes it a little less scary, but sometimes I still cry.\r\nIf
+      Mom or Dad were here, maybe I\u2019d feel safe\u2014but they\u2019re not, so
+      I have to be brave all by myself.\r\nMaybe tomorrow night, I won\u2019t turn
+      the lights off when I go to sleep."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459716
+    m_Localized: "Today, I looked at my diary and saw something that looked like
+      blood on the page.\r\r\nWhen did I get hurt? When did that get there?\r\nThe
+      red stain had spread across the paper, and it scared me so much.\r\nI don\u2019t
+      know where it came from\u2014I just closed it and decided not to look anymore.\r\r\nI
+      think I\u2019ll start writing in a new diary tomorrow."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459717
+    m_Localized: "Tonight again, the space under my bed felt so scary.\r\r\nEvery
+      time I try to sleep, it feels like someone is watching me from down there.\r\r\nI
+      think it\u2019s even scarier because I\u2019m sleeping alone.\r\nI kept my
+      feet tucked in tightly, afraid that if they slipped out, something might grab
+      me.\r\nMaybe I\u2019ll take a quick peek under the bed tomorrow during the
+      day\u2026\r\r\nBut what if seeing it makes it even scarier?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459718
+    m_Localized: "Something really scary happened tonight.\r\nA ghost\u2014or something
+      like one\u2014appeared right in front of me.\r\nIt just stared at me, and I
+      couldn\u2019t even breathe.\r\nWhen I pulled the blanket over my face, it disappeared\u2026\r\nbut
+      I was too scared to even close my eyes, afraid it might come back.\r\nWhat
+      if this keeps happening?\r\nIf Mom were here, she would\u2019ve chased all
+      the scary things away\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459719
+    m_Localized: "Today, I found a family photo.\r\r\nIt was one where Mom and Dad
+      were smiling together, but the middle was torn.\r\r\nI asked Mom why she doesn\u2019t
+      live with Dad anymore, and she got angry.\r\nShe said he\u2019s just busy and
+      can\u2019t come\u2014but if he\u2019s busy, wouldn\u2019t he still want to
+      see me?\r\r\nI tried to tape the photo back together, but the pieces didn\u2019t
+      fit quite right. It looked\u2026 wrong."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654016
+    m_Localized: "I was home alone again today.\r\r\nSometimes, I wonder if my family
+      has forgotten about me.\r\nOther people go places with their families\u2014so
+      why am I always by myself?\r\r\nDid I do something wrong?\r\r\nWhen these thoughts
+      come, my chest hurts, and the loneliness gets too heavy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654017
+    m_Localized: "Today, while I was playing with my building blocks, I saw something
+      strange.\r\nOne of the blocks I had stacked suddenly had the word \u201CDead\u201D
+      on it.\r\nI never made that word\u2014I don\u2019t even know how it got there.\r\nI
+      was so scared that I knocked all the blocks over, but the word keeps coming
+      back in my mind.\r\r\nI think I shouldn\u2019t play with them tomorrow."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654018
+    m_Localized: "Today, while I was playing alone in my room, I dropped one of my
+      toys.\r\nBut then\u2026 it felt like the toy was staring at me.\r\nEvery time
+      I moved a little, it seemed to follow me, and that scared me so much.\r\nEven
+      if I shut the door, I feel like it\u2019ll come back in my dreams.\r\nTomorrow,
+      I\u2019m going to hide that toy somewhere deep, where I can\u2019t see it."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654019
+    m_Localized: "In my dream today, I saw blood rising from the floor.\r\nAt first,
+      it seeped in slowly, but before I knew it, the whole house was flooded in red.\r\nI
+      couldn't breathe\u2014it was terrifying.\r\nI was too scared to move, afraid
+      my feet might touch the blood.\r\nEven after I woke up, my heart kept pounding
+      like I was still there."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654020
+    m_Localized: "Today, I got my test paper back, and the moment I saw the red marks,
+      my whole body froze.\r\nThey were just wrong answers\u2014but for some reason,
+      the red ink looked like it was bleeding down the page. I must be an idiot.
+      I couldn\u2019t even solve problems this simple\u2026 what else could I be?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654021
+    m_Localized: "I wish my father would stop drinking.\r\nWhen the alcohol takes
+      over, he becomes someone else.\r\nHe throws bottles, and the shards fly everywhere.\r\nIt\u2019s
+      hell.\r\nI always curl up, hoping\u2014praying\u2014it\u2019s just a nightmare."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654022
+    m_Localized: "In my dream, I walked into the classroom in the morning, and everything
+      was a mess.\r\nThe desks were overturned, the chairs and books scattered everywhere\u2014it
+      looked like someone had trashed the whole room on purpose. Everyone was murmuring
+      in confusion, but no one knew who had done it. I felt strangely uneasy, so
+      I double-checked my seat, just to be sure. Then I woke up. It felt so real\u2014like
+      it had actually happened."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848320
+    m_Localized: "This morning, I looked at the clothes on the hanger, and the color
+      seemed different.\r\r\nIt didn\u2019t look the same as it did yesterday, and
+      I couldn\u2019t stop staring at it.\r\nMaybe I was just seeing things\u2026
+      but I\u2019m not sure.\r\nThe more I think about how the clothes changed, the
+      stranger\u2014and scarier\u2014it feels.\r\nWill it look normal again if I
+      check tomorrow?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848321
+    m_Localized: "Hangers scare me.\r\r\nWhen clothes are hanging on them, they look
+      too much like human\u2026\r\nWouldn\u2019t it be better to just get rid of
+      all those clothes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848322
+    m_Localized: "When I looked at my school uniform, the dirty footprints were still
+      there.\r\nSomeone had clearly shoved and stepped on me in the hallway after
+      class\u2014on purpose.\r\nAnd yet, I couldn\u2019t say a word. That\u2019s
+      what made me so angry.\r\nI tried to wash the marks off with water, but they
+      wouldn\u2019t come out easily.\r\nIt felt like those footprints weren\u2019t
+      just on my clothes\u2026 but stamped right onto my pride."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848323
+    m_Localized: "In my dream, the clothes hanger suddenly started moving like a
+      person.\r\nIts arms stretched out and it began chasing me.\r\nI ran, trying
+      to hide, but it kept reaching out, trying to grab me from behind.\r\nThe monster
+      screamed that it was going to kill me, and I was so terrified I couldn\u2019t
+      even scream back.\r\nWhen I woke up, I couldn\u2019t stand to look at the hanger
+      anymore."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848324
+    m_Localized: "Today, while I was using my computer, the screen suddenly went
+      strange.\r\nWeird static filled the entire display, and then nothing\u2014just
+      blackness.\r\nIt felt like someone had broken it on purpose, and it sent chills
+      down my spine.\r\nEven after rebooting several times, it stayed the same, so
+      I just turned it off.\r\nWas it just a simple glitch\u2026 or something else?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848325
+    m_Localized: "Tonight, I was playing a game when suddenly, a ghost-like figure
+      popped up on the screen.\r\r\nIt wasn\u2019t that kind of game, so I don\u2019t
+      know if it was some kind of glitch, but this terrifying face just appeared
+      out of nowhere. I was so startled that I dropped my mouse, and after that,
+      the screen completely froze. I can\u2019t tell if it was a bug or if someone
+      was messing with me, but now I\u2019m too scared to turn the game back on.
+      Maybe I should take a break from gaming for a while."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848326
+    m_Localized: "Today, my computer suddenly shut off.\r\nThe power was fine, but
+      the screen just went completely black out of nowhere, and I panicked.\r\nI
+      was in the middle of an important assignment, and I nearly lost it worrying
+      that all my work was gone.\r\nI tried pressing the power button a few times,
+      but there was no response, so I gave up.\r\nI have no idea why this happened,
+      but if it happens again, it\u2019s going to drive me crazy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042624
+    m_Localized: "Tonight, I looked out the window and saw something truly strange.\r\r\nSomething
+      ghost-like\u2014it looked like it was falling past the window.\r\nMy heart
+      dropped in an instant, but it happened so fast I\u2019m not even sure if I
+      really saw it.\r\nMaybe it was just my imagination... but the image keeps replaying
+      in my mind.\r\nI shut the window and drew the curtains, but the uneasy feeling
+      still won\u2019t go away.\r\nI don\u2019t think I\u2019ll be able to sleep
+      like this."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042625
+    m_Localized: "When I got to school today, a chrysanthemum was placed on my desk
+      Why? I'm still alive\u2014so who would do something like this? I shouted, demanding
+      answers from the people around me.\r\nBut no one seemed to hear my voice.\r\nHad
+      I really\u2026 died?\r\nCold sweat trickled down my back. And just then, I
+      woke up to the sound of my alarm. What a terrible nightmare."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042626
+    m_Localized: "Today, I came home and dropped my bag\u2014and it finally burst
+      open.\r\r\nMy textbooks scattered all over the floor, and seeing some torn
+      pages made me sigh.\r\nI don\u2019t know why I have to carry so many books
+      that my bag ends up like this.\r\nAs I picked up the mess, I told myself I
+      should really organize my bag tomorrow."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042627
+    m_Localized: "I played a game of hangman with my friends today.\r\nBut the word
+      my friend chose was impossible to guess.\r\nIn hangman, a person is tied to
+      the gallows\u2014and you have to guess the word before they die.\r\nBut this
+      time, the word felt like something I could never have known.\r\nI lost the
+      bet, so I had to buy everyone ice cream."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042628
+    m_Localized: "Today, I sat at my desk to start my homework, but the pile in front
+      of me made me sigh right away.\r\nI don\u2019t even know when it got this bad,
+      but now I have no idea where to begin.\r\r\nThe more I do, the more endless
+      it feels\u2014like my head might explode.\r\nCan I really finish all of this
+      and still make it to tomorrow?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042629
+    m_Localized: "Today, I was alone in my room when the lightbulb suddenly started
+      flickering.\r\nAt first, I thought it was just wearing out\u2014but then the
+      flickering got faster and faster, and that\u2019s when it started to feel strange.\r\nThe
+      light went out for a second, then came back on, and in that brief moment, the
+      room felt\r\n\n*too*\r\nquiet.\r\n\r\nI kept telling myself it was just a problem
+      with the bulb, but the uneasy feeling hasn\u2019t gone away.\r\r\nI need to
+      replace it tomorrow\u2014definitely."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042630
+    m_Localized: "Today, I was at the PC caf\xE9 playing games like usual, when my
+      screen suddenly started acting weird.\r\nAt first, I thought it was just lag\u2014but
+      then someone a few seats over said, \u201CHey, are you seeing this too?\u201D\r\nEveryone\u2019s
+      game screens were either freezing or changing on their own.\r\nOn some computers,
+      even after the game shut down, the background music kept playing.\r\nThe part-timer
+      said it was probably a server issue.\r\nI was on a win streak, too\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042631
+    m_Localized: "Today felt unusually quiet. One by one, the other customers left,
+      and even the part-timer was gone for a while\u2014maybe they went to the restroom.
+      I found myself alone in that wide PC caf\xE9, and somehow, it made me uneasy.
+      Empty ramen cups and snack wrappers were left scattered on the desks beside
+      me, and the only sound was the low hum of the ventilation. I even turned down
+      the game volume, but the silence just made everything feel stranger. Maybe
+      it\u2019s because when a place that\u2019s always noisy suddenly goes quiet\u2026
+      it feels even louder in its stillness."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042632
+    m_Localized: "At school today, a strange sound suddenly came through the speaker.\r\r\nIt
+      was a low, droning hum\u2014no words, just that sound, going on and on.\r\nEveryone
+      looked around in confusion.\r\nEven the teacher didn\u2019t know what was happening
+      and went to the staff room to check.\r\nA strange tension filled the classroom.\r\nThe
+      sound stopped after a few minutes, but the uneasiness didn\u2019t go away.\r\r\nAm
+      I losing my mind?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042633
+    m_Localized: "Today, while I was studying in my room, I noticed something strange.\r\nThe
+      window\u2014which I clearly remember closing\u2014was somehow open. There\u2019s
+      no way the wind could\u2019ve opened it, and the sudden realization sent chills
+      down my spine. I tried to recall if I\u2019d forgotten to shut it, but I\u2019m
+      certain I did. I couldn\u2019t shake the feeling that someone was watching
+      me from behind, so I quickly closed the window and drew the curtains. If strange
+      things like this keep happening, it\u2019s really going to get under my skin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042634
+    m_Localized: "That day, I was preparing for roll call as usual when a magazine
+      rolled out of a locker.\r\nIt looked real\u2014no training marks.\r\nThen a
+      grenade fell out from the next one.\r\nWe called the officer immediately.\r\nThey
+      covered it up quietly, but I still think...\r\r\nwhat if we hadn\u2019t opened
+      them?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042635
+    m_Localized: "I sat in front of the mirror, listening to the buzz of the clippers
+      as strands of hair fell around me.\r\nThe shorter my hair became, the more
+      strangely hollow I felt inside.\r\nLaughter and teasing from my friends echoed
+      nearby, but the face in the mirror looked unfamiliar.\r\nI ran my hand over
+      my freshly cut hair\u2014and suddenly, reality hit me all at once.\r\nStarting
+      today, two years\u2026\r\r\nI feel scared. Tense.\r\nI think lunch isn\u2019t
+      sitting well in my stomach."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236928
+    m_Localized: 'A trumpet-like blare tore through the air, sharp enough to split
+      my ears.
+
+      It felt as if my body, deep in sleep, had been yanked violently
+      to the surface.
+
+      My mind was still clouded with confusion, yet my body
+      moved on instinct alone.
+
+      The sound had stopped, but its echo lingered
+      in my head, amplifying a vague sense of unease.
+
+      When will I finally
+      grow used to this thing called society?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236929
+    m_Localized: "I saw something move in the corner of the room.\r\nAt first, I
+      thought I was imagining it\u2014 but no, there it was. A bug, crawling right
+      in front of me.\r\nMy body froze, and I instinctively backed away. The more
+      I thought about where it might\u2019ve come from, the more my skin crawled.\r\nSuddenly,
+      the whole room felt unfamiliar and uncomfortable. They say if you see one,
+      the whole place is already theirs.\r\nI\u2019m so doomed."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236930
+    m_Localized: "This morning, I looked at the clothes on the hanger, and the color
+      seemed different.\r\nIt didn\u2019t look the same as it did yesterday, and
+      I couldn\u2019t stop staring at it.\r\nMaybe I was just seeing things\u2026
+      but I\u2019m not sure.\r\nThe more I think about how the clothes changed, the
+      stranger\u2014and scarier\u2014it feels.\r\r\nWill it look normal again if
+      I check tomorrow?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236931
+    m_Localized: "Hangers scare me.\r\r\nWhen clothes are hanging on them, they look
+      too much like human\u2026\r\nWouldn\u2019t it be better to just get rid of
+      all those clothes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236932
+    m_Localized: "When I looked at my school uniform, the dirty footprints were still
+      there.\r\nSomeone had clearly shoved and stepped on me in the hallway after
+      class\u2014on purpose.\r\nAnd yet, I couldn\u2019t say a word. That\u2019s
+      what made me so angry.\r\nI tried to wash the marks off with water, but they
+      wouldn\u2019t come out easily.\r\nIt felt like those footprints weren\u2019t
+      just on my clothes\u2026 but stamped right onto my pride."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431232
+    m_Localized: "In my dream, the clothes hanger suddenly started moving like a
+      person.\r\nIts arms stretched out and it began chasing me.\r\nI ran, trying
+      to hide, but it kept reaching out, trying to grab me from behind.\r\nThe monster
+      screamed that it was going to kill me, and I was so terrified I couldn\u2019t
+      even scream back.\r\nWhen I woke up, I couldn\u2019t stand to look at the hanger
+      anymore."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431233
+    m_Localized: "The computer screen suddenly turned completely blue. No text, no
+      images\u2014just an empty, endless blue screen. Nothing changed, no matter
+      how I moved the mouse or pressed the keys.\r\nDid I even save my work? I don\u2019t
+      want to do anything anymore. A heavy, endless sense of depression is pressing
+      down on me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431234
+    m_Localized: "Today, while I was using my computer, the screen suddenly went
+      strange.\r\nWeird static filled the entire display, and then nothing\u2014just
+      blackness.\r\nIt felt like someone had broken it on purpose, and it sent chills
+      down my spine.\r\nEven after rebooting several times, it stayed the same, so
+      I just turned it off.\r\nWas it just a simple glitch\u2026 or something else?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431235
+    m_Localized: "Tonight, I was playing a game when suddenly, a ghost-like figure
+      popped up on the screen.\r\r\nIt wasn\u2019t that kind of game, so I don\u2019t
+      know if it was some kind of glitch, but this terrifying face just appeared
+      out of nowhere. I was so startled that I dropped my mouse, and after that,
+      the screen completely froze. I can\u2019t tell if it was a bug or if someone
+      was messing with me, but now I\u2019m too scared to turn the game back on.
+      Maybe I should take a break from gaming for a while."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431236
+    m_Localized: "Today, my computer suddenly shut off.\r\nThe power was fine, but
+      the screen just went completely black out of nowhere, and I panicked.\r\nI
+      was in the middle of an important assignment, and I nearly lost it worrying
+      that all my work was gone.\r\nI tried pressing the power button a few times,
+      but there was no response, so I gave up.\r\nI have no idea why this happened,
+      but if it happens again, it\u2019s going to drive me crazy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431237
+    m_Localized: "I opened my phone and found my contact list completely empty.\r\nAll
+      the names that once filled the screen were gone, and no matter how much I scrolled,
+      there was only blank space. I knew something had to be wrong, but the weight
+      of not being able to reach anyone felt strangely heavy. It made me wonder\u2014was
+      I ever truly connected to anyone at all?\r\nEven after waking up and seeing
+      all the names still there, the feeling of that emptiness didn\u2019t leave
+      me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431238
+    m_Localized: "In my dream, a single photograph came to mind\u2014\r\na warm family,
+      all smiling, their shoulders gently touching in the sunlight.\r\nI think I
+      felt happy, just looking at that scene.\r\nBut when I woke up, I realized\u2026
+      that wasn\u2019t my family at all.\r\nIn reality, I don\u2019t have any memories
+      of us smiling together like that.\r\n\r\nStrangely, the dream felt so vivid
+      that it left behind an aching emptiness.\r\n\r\nIt was as if the dream had
+      shown me something I\u2019ve never had\u2014on purpose."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431239
+    m_Localized: "I rummaged through the sink, but all I found were empty pots and
+      dishes.\r\nHoping there might be at least a pack of ramen, I opened the cupboard\u2014\r\nbut
+      that hope quickly faded. There were only a few coins in my wallet, not even
+      enough for a random trip to the convenience store. My stomach kept twisting,
+      and the air in the room felt damp and heavy. On days like this, time seems
+      to move slower, and all I can do is wait for the night to fall."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431240
+    m_Localized: "The mountain of delivery boxes seemed endless.\r\nEvery time I
+      moved one, another appeared in its place, and my arms grew heavier with each
+      trip.\r\nExhaustion hit me, and I wanted nothing more than to sit on the floor\u2014but
+      I couldn\u2019t stop.\r\nThe shelves were a mess, and I could hear customers
+      grumbling in the distance.\r\nWhy does it always turn out like this when I\u2019m
+      on shift?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625536
+    m_Localized: "While I was working my shift, a customer was carrying a cup of
+      instant noodles and must\u2019ve lost their grip.\r\nThe cup spilled onto the
+      floor\u2014noodles and hot broth splashed everywhere, making a mess.\r\nThat
+      was the fifth one today.\r\nWhy does this always happen to me?\r\nAnd now they\u2019re
+      demanding compensation, acting like it\u2019s my fault.\r\nBut they\u2019re
+      the one who dropped it."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625537
+    m_Localized: "I want to end it.\r\nThoughts like that fill my head countless
+      times a day.\r\nLife is pain.\r\nYeah\u2014*Ending it today*.\r\nEnding it
+      today.\r\nWhat worth does my life even have?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625538
+    m_Localized: "As soon as I opened the door, I felt like I couldn\u2019t breathe.\r\nThe
+      wardrobe and drawers were wide open, and things were scattered all over the
+      floor.\r\r\nThe room felt unfamiliar\u2014cold\u2014and I thought I could smell
+      something strange.\r\nIt was clear someone had broken in. My heart pounded
+      with a mix of fear and anger. No matter how much I looked around, there was
+      no undoing it. It all felt so empty and pointless. What was there to take,
+      anyway? There\u2019s nothing here. Maybe I should just die."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625539
+    m_Localized: "Today, while I was studying in my room, I noticed something strange.\r\nThe
+      window\u2014which I clearly remember closing\u2014was somehow open. There\u2019s
+      no way the wind could\u2019ve opened it, and the sudden realization sent chills
+      down my spine. I tried to recall if I\u2019d forgotten to shut it, but I\u2019m
+      certain I did. I couldn\u2019t shake the feeling that someone was watching
+      me from behind, so I quickly closed the window and drew the curtains. If strange
+      things like this keep happening, it\u2019s really going to get under my skin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625540
+    m_Localized: "The computer screen suddenly turned completely blue. No text, no
+      images\u2014just an empty, endless blue screen. Nothing changed, no matter
+      how I moved the mouse or pressed the keys.\r\nDid I even save my work? I don\u2019t
+      want to do anything anymore. A heavy, endless sense of depression is pressing
+      down on me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625541
+    m_Localized: "Today, while I was using my computer, the screen suddenly went
+      strange.\r\nWeird static filled the entire display, and then nothing\u2014just
+      blackness.\r\nIt felt like someone had broken it on purpose, and it sent chills
+      down my spine.\r\nEven after rebooting several times, it stayed the same, so
+      I just turned it off.\r\nWas it just a simple glitch\u2026 or something else?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625542
+    m_Localized: "In my dream, I stopped when I saw a toy sitting off to the side.\r\nI
+      was certain it didn\u2019t belong in our house, but I couldn\u2019t tell where
+      it had come from.\r\nIts torn mouth, twisted into a forced smile, felt eerily
+      wrong.\r\nI asked my daughter if it was hers, but she said she\u2019d never
+      seen it before.\r\nLater that night, in the stillness,\r\nI couldn\u2019t shake
+      the feeling\r\nthat the toy was quietly watching me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 710819840
+    m_Localized: "In my dream, I stepped into the study.\r\nThe shelves, which should
+      have been filled with familiar books, looked strangely unfamiliar.\r\nAs I
+      moved closer, I saw that every single book was turned backward\u2014no titles,
+      no covers, just blank spines lined up in a row.\r\nI reached out to pull one
+      out, but no matter how hard I tried, it wouldn\u2019t budge.\r\n\nIt feels
+      like\u2026 today, I\u2019m not supposed to read."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 710819841
+    m_Localized: "Tonight, I was playing a game when suddenly, a ghost-like figure
+      popped up on the screen.\r\nIt wasn\u2019t that kind of game, so I don\u2019t
+      know if it was some kind of glitch, but this terrifying face just appeared
+      out of nowhere. I was so startled that I dropped my mouse, and after that,
+      the screen completely froze. I can\u2019t tell if it was a bug or if someone
+      was messing with me, but now I\u2019m too scared to turn the game back on.
+      Maybe I should take a break from gaming for a while."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014144
+    m_Localized: "Today, my computer suddenly shut off.\r\nThe power was fine, but
+      the screen just went completely black out of nowhere, and I panicked.\r\nI
+      was in the middle of an important assignment, and I nearly lost it worrying
+      that all my work was gone.\r\nI tried pressing the power button a few times,
+      but there was no response, so I gave up.\r\nI have no idea why this happened,
+      but if it happens again, it\u2019s going to drive me crazy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014145
+    m_Localized: "The moment I looked at the wall, my whole body froze.\r\nEyes\u2014countless
+      eyes\u2014covered the surface, all staring straight at me. Different shapes
+      and sizes, but every one of them fixed in the same direction.They were watching
+      me. \r\nThen, as I blinked, they vanished\u2014 as if they had never existed
+      at all.\r\nI must be more drained than I thought. Maybe I should go to the
+      hospital when morning comes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014146
+    m_Localized: "In the quiet of the room, my phone suddenly started buzzing, and
+      then her voice came through the speaker.\r\nIt was my wife. But her voice\u2014
+      it wasn\u2019t like usual. Cold. Sharp. Spitting harsh curses I\u2019d never
+      heard from her before. It was unmistakably her voice, and yet\u2026 it didn\u2019t
+      feel like the person I knew.\r\nLater, when I asked, she said she never called.
+      What\u2026 just happened?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014147
+    m_Localized: "Because I\u2019m away on business so often, it feels like I no
+      longer have a place in my own family.\r\nMy daughter seems awkward around me,
+      and even my wife seems unimpressed with a man who\u2019s always outside the
+      house.\r\nI may be resting now, but it feels like I\u2019m sitting on pins
+      and needles.\r\nIs this really my home?\r\nOr am I just a machine that brings
+      in money?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014148
+    m_Localized: "I want to end it.\r\nThoughts like that fill my head countless
+      times a day.\r\nLife is pain.\r\nYeah\u2014*Ending it today*.\r\nEnding it
+      today.\r\nWhat worth does my life even have?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014149
+    m_Localized: "The desk I had tidied up in the morning was now a complete mess\u2014\r\nas
+      if someone had deliberately thrown everything into disarray.\r\nI reached out
+      to start organizing it, but didn\u2019t even know where to begin.\r\nThis chaotic
+      space felt like a reflection of my own mind.\r\nI told them not to come into
+      the study.\r\nIt was the one place where I felt at peace, and now it feels
+      violated.\r\nThe stress is closing in."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014150
+    m_Localized: "The desk I thought would last forever\u2014everything on it was
+      gone.\r\nThe pens, the stacks of papers, even the monitor\u2014vanished without
+      a trace.\r\nThe empty surface felt cold and unfamiliar. I reached out and ran
+      my hand across it, but nothing remained. And now they\u2019re telling me to
+      leave? What about my family? My daughter?\r\nI begged, on my knees, until my
+      hands went numb from scraping the floor.\r\n\r\nThank god\u2014it was just
+      a dream. My head feels blank. Today\u2019s going to be a long, heavy day."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014151
+    m_Localized: "When my daughter was little, we were always inseparable.\r\nWhenever
+      I wasn\u2019t home, she would constantly ask my wife when I was coming back.\r\nAll
+      I feel toward her now is guilt.\r\nDoes she still wait for me?\r\nOr has she
+      grown tired of waiting?\r\nAnd if she has\u2026\r\nwhat kind of face am I supposed
+      to greet her with?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014152
+    m_Localized: "I noticed my daughter\u2019s toy tucked in the corner.\r\nIt used
+      to face me, but somehow, it was now turned the other way.\r\nAt first, I thought
+      she was just playing around and turned it back toward me\u2014\r\nbut each
+      time I checked, it was always facing away again.\r\nAs if it were deliberately
+      avoiding me.\r\nI tried again and again to face it toward me,\r\nbut somehow,
+      it kept turning back.\r\nAnd then a thought crossed my mind\u2014\r\nwhat if
+      that toy is simply reflecting how my daughter feels?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 719208448
+    m_Localized: "A typical family drama was playing on the living room TV.\r\nSmiling
+      parents, children laughing and teasing one another\u2014but then the screen
+      began to distort. Their faces twisted into something grotesque, cheerful smiles
+      torn wide and wrong, with hollow black eyes staring straight at me from within
+      the screen. Suddenly, something leapt out from the TV, and a chilling presence
+      filled the room. I rubbed my eyes\u2014 and just like that, everything was
+      normal again. \u2026Am I not meant to have a happy family?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

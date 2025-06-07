@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StartupSelectors:
   - rid: 8968442736490315776
+  - rid: 8968442736490315801
   - rid: 8968442736490315777
   - rid: 8968442736490315778
   m_AvailableLocales:
@@ -224,3 +225,8 @@ MonoBehaviour:
         - default
         - d
         - 
+    - rid: 8968442736490315801
+      type: {class: PlayerPrefLocaleSelector, ns: UnityEngine.Localization.Settings,
+        asm: Unity.Localization}
+      data:
+        m_PlayerPreferenceKey: selected-locale

@@ -17,8 +17,14 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 37d2e8f8624dd3e44898574789dc5312
   m_SerializeEntries:
-  - m_GUID: 61a82d1cdc38c83429934780ed2a3aa1
+  - m_GUID: bcd60dd82d1a65345b1fcde993d1bcbb
     m_Address: BookDataStringTable_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a18d7e87c425de4387d6879bdec2213
+    m_Address: GeneralUIStringTable_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

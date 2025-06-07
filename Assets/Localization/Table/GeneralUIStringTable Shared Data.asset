@@ -13,8 +13,28 @@ MonoBehaviour:
   m_Name: GeneralUIStringTable Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: GeneralUIStringTable
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
-  m_Entries: []
+  m_TableCollectionNameGuidString: 0adccf78db7f7914e96d26e3bbf46f3b
+  m_Entries:
+  - m_Id: 866104786944
+    m_Key: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893481009152
+    m_Key: Setting_YMouseSensitive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 896425410560
+    m_Key: Setting_XMouseSensitive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 898807775232
+    m_Key: Setting_Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1046774431744
+    m_Key: StartMessage
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
