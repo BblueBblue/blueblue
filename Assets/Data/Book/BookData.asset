@@ -411,3 +411,4 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  localizationTableName: BookDataStringTable

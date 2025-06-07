@@ -92,7 +92,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 689848320
-    m_Key: CH2_ClothesColorChang
+    m_Key: CH2_ClothesColorChange
     m_Metadata:
       m_Items: []
   - m_Id: 689848321
@@ -302,12 +302,12 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 8968442736490315807
+    rid: 8968442740923432966
   references:
     version: 2
     RefIds:
-    - rid: 8968442736490315807
+    - rid: 8968442740923432966
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1749288114815
+        m_CustomEpoch: 1749304409803

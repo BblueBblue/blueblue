@@ -2,8 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
+using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
+using UnityEngine.Localization.Tables;
 using UnityEngine.UI;
 
 namespace Book
@@ -21,20 +26,22 @@ namespace Book
 
         [SerializeField] 
         private GameObject inactiveCover;
-        
-        private string description;
-        
+
+        private LocalizedString descriptionLocalizedString;
+        private bool isActivated = false;
+
         /// <summary>
         /// PageData를 기반으로 page 정보를 갱신
         /// </summary>
         /// <param name="pageData"></param>
-        public void InitPage(PageScriptableObject pageData)
+        /// <param name="localizationTableName"></param>
+        public async void InitPage(PageScriptableObject pageData, string localizationTableName)
         {
             image.sprite = pageData.photo;
-            description = pageData.description;
-            StringBuilder stringBuilder = new StringBuilder();
-
-            text.text = GetHideString(description);
+            descriptionLocalizedString = new LocalizedString(localizationTableName, pageData.descriptionKey);
+            descriptionLocalizedString.StringChanged += UpdateDescription;
+            
+            text.text = GetHideString(descriptionLocalizedString.GetLocalizedString());
         }
 
         /// <summary>
@@ -42,9 +49,10 @@ namespace Book
         /// </summary>
         public void SetActivate()
         {
+            isActivated = true;
             inactiveCover.SetActive(false);
             coverImage.gameObject.SetActive(false);
-            text.text = description;
+            text.text = descriptionLocalizedString.GetLocalizedString();
         }
 
         private string GetHideString(string targetString)
@@ -57,6 +65,24 @@ namespace Book
             }
 
             return stringBuilder.ToString();
+        }
+
+        private void UpdateDescription(string description)
+        {
+            if (isActivated)
+            {
+                text.text = description;
+            }
+            else
+            {
+                text.text = GetHideString(description);
+            }
+        }
+        
+        [Button]
+        private void ForceUnlock()
+        {
+            SetActivate();
         }
     }
 }
