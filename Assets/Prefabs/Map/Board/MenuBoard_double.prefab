@@ -328,7 +328,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176058}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -381,7 +381,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3141\u3134"
+  m_Text: '1. If an anomaly is present, choose the door on the left.
+
+    2. If there
+    is no anomaly, choose the door on the right.
+
+    3. The first floor of each
+    chapter contains no anomalies.'
 --- !u!114 &5448173325161293557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1107,8 +1113,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820231755468690}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -18.1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1116,7 +1122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -49.2}
+  m_AnchoredPosition: {x: 0, y: -41.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222198121516871752
@@ -1160,7 +1166,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3134\u3147"
+  m_Text: '1. If an anomaly is present, choose the door on the left.
+
+    2. If there
+    is no anomaly, choose the door on the right.
+
+    3. The first floor of each
+    chapter contains no anomalies.'
 --- !u!114 &3936938287984034293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1227,7 +1239,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: -18.1
+          value: 2.8
         - localeIdentifier:
             m_Code: ko
           value: -6.4
@@ -1239,7 +1251,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: -49.2
+          value: -49
         - localeIdentifier:
             m_Code: ko
           value: -81.3
