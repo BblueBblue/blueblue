@@ -15,9 +15,8 @@ namespace Book
         [HideLabel]
         [PreviewField(256)]
         public Sprite photo;
-        [Title("Description")]
+        [Title("Description Localization Key")]
         [HideLabel]
-        [MultiLineProperty]
-        public string description;
+        public string descriptionKey;
     }
 }

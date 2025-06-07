@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Anomaly;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 
 namespace Book
 {
@@ -22,10 +23,30 @@ namespace Book
             chapterIdx = new Dictionary<AnomalyType, int>();
         }
 
-        private void Start()
+        IEnumerator Start()
         {
+            yield return InitializeLocalization();
             InitPages();
             gameObject.SetActive(false);
+        }
+
+        private IEnumerator InitializeLocalization()
+        {
+            yield return LocalizationSettings.InitializationOperation;
+            
+            if (LocalizationSettings.SelectedLocale == null)
+            {
+                var englishLocale = LocalizationSettings.AvailableLocales.GetLocale("en");
+                if (englishLocale != null)
+                {
+                    LocalizationSettings.SelectedLocale = englishLocale;
+                    Debug.Log("Locale set to English");
+                }
+            }
+            else
+            {
+                Debug.Log($"SelectedLocale is {LocalizationSettings.SelectedLocale.ToString()}");
+            }
         }
 
         private void InitPages()
@@ -45,7 +66,7 @@ namespace Book
                 foreach (var pageData in pageList.Value)
                 {
                     // 페이지 설정
-                    pageSetters[pageSetterIdx].InitPage(pageData);
+                    pageSetters[pageSetterIdx].InitPage(pageData, bookData.localizationTableName);
                     pageSetters[pageSetterIdx].gameObject.name = pageData.anomalyData.anomalyName;
                     pages.Add(pageData.anomalyData.anomalyName, pageSetters[pageSetterIdx]);
                     pageSetterIdx++;

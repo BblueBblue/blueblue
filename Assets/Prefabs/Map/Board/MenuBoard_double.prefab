@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 22478322}
   - component: {fileID: 22299214}
   - component: {fileID: 11421814}
+  - component: {fileID: 5448173325161293557}
   m_Layer: 5
   m_Name: Desc
   m_TagString: Untagged
@@ -327,7 +328,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176058}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -336,8 +337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -99}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -49.199997}
+  m_SizeDelta: {x: 0, y: 0.0000038146973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22299214
 CanvasRenderer:
@@ -380,10 +381,95 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1. \uC774\uC0C1\uD604\uC0C1\uC774 \uC788\uB2E4\uBA74, \uC67C\uCABD \uBB38\uC744
-    \uC120\uD0DD\uD558\uC138\uC694.\n2. \uC774\uC0C1\uD604\uC0C1\uC774 \uC5C6\uB2E4\uBA74,
-    \uC624\uB978\uCABD \uBB38\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n3. \uCC55\uD130
-    \uBCC4, \uCCAB \uCE35\uC740 \uC774\uC0C1 \uD604\uC0C1\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."
+  m_Text: '1. If an anomaly is present, choose the door on the left.
+
+    2. If there
+    is no anomaly, choose the door on the right.
+
+    3. The first floor of each
+    chapter contains no anomalies.'
+--- !u!114 &5448173325161293557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8968442740923433020
+  - rid: 8968442740923433025
+  references:
+    version: 2
+    RefIds:
+    - rid: 8968442740923433020
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 11421814}
+        m_TrackedProperties:
+          items:
+          - rid: 8968442740923433021
+        m_UpdateType: 0
+    - rid: 8968442740923433021
+      type: {class: StringTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_Text
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: '1. If an anomaly is present, choose the door on the left.
+
+            2.
+            If there is no anomaly, choose the door on the right.
+
+            3.
+            The first floor of each chapter contains no anomalies.'
+        - localeIdentifier:
+            m_Code: ko
+          value: "1. \uC774\uC0C1\uD604\uC0C1\uC774 \uC788\uB2E4\uBA74, \uC67C\uCABD
+            \uBB38\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n2. \uC774\uC0C1\uD604\uC0C1\uC774
+            \uC5C6\uB2E4\uBA74, \uC624\uB978\uCABD \uBB38\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n3.
+            \uCC55\uD130 \uBCC4, \uCCAB \uCE35\uC740 \uC774\uC0C1 \uD604\uC0C1\uC774
+            \uC5C6\uC2B5\uB2C8\uB2E4."
+    - rid: 8968442740923433025
+      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 22478322}
+        m_TrackedProperties:
+          items:
+          - rid: 8968442740923433026
+          - rid: 8968442740923433027
+    - rid: 8968442740923433026
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_AnchoredPosition.y
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: -49.199997
+        - localeIdentifier:
+            m_Code: ko
+          value: -81.3
+    - rid: 8968442740923433027
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_SizeDelta.y
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: 0.0000038146973
+        - localeIdentifier:
+            m_Code: ko
+          value: 0
 --- !u!1 &180030
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +481,7 @@ GameObject:
   - component: {fileID: 22469720}
   - component: {fileID: 22272384}
   - component: {fileID: 11419982}
+  - component: {fileID: 5888969574070700075}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -462,7 +549,45 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAC00\uC774\uB4DC\nGuide"
+  m_Text: Guide
+--- !u!114 &5888969574070700075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8968442740923433014
+  references:
+    version: 2
+    RefIds:
+    - rid: 8968442740923433014
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 11419982}
+        m_TrackedProperties:
+          items:
+          - rid: 8968442740923433015
+        m_UpdateType: 0
+    - rid: 8968442740923433015
+      type: {class: StringTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_Text
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: Guide
+        - localeIdentifier:
+            m_Code: ko
+          value: "\uAC00\uC774\uB4DC"
 --- !u!1 &1103862920389262
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +738,7 @@ GameObject:
   - component: {fileID: 224373310521991008}
   - component: {fileID: 222265681613458662}
   - component: {fileID: 114029180306174920}
+  - component: {fileID: 5439815728599900441}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -680,7 +806,45 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAC00\uC774\uB4DC\nGuide"
+  m_Text: Guide
+--- !u!114 &5439815728599900441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519934542816952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8968442740923433016
+  references:
+    version: 2
+    RefIds:
+    - rid: 8968442740923433016
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114029180306174920}
+        m_TrackedProperties:
+          items:
+          - rid: 8968442740923433017
+        m_UpdateType: 0
+    - rid: 8968442740923433017
+      type: {class: StringTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_Text
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: Guide
+        - localeIdentifier:
+            m_Code: ko
+          value: "\uAC00\uC774\uB4DC"
 --- !u!1 &1600366082414742
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,6 +1098,7 @@ GameObject:
   - component: {fileID: 224372837884121566}
   - component: {fileID: 222198121516871752}
   - component: {fileID: 114373427060449632}
+  - component: {fileID: 3936938287984034293}
   m_Layer: 5
   m_Name: Desc
   m_TagString: Untagged
@@ -948,8 +1113,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820231755468690}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -957,7 +1122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -99}
+  m_AnchoredPosition: {x: 0, y: -41.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222198121516871752
@@ -1001,7 +1166,92 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1. \uC774\uC0C1\uD604\uC0C1\uC774 \uC788\uB2E4\uBA74, \uC67C\uCABD \uBB38\uC744
-    \uC120\uD0DD\uD558\uC138\uC694.\n2. \uC774\uC0C1\uD604\uC0C1\uC774 \uC5C6\uB2E4\uBA74,
-    \uC624\uB978\uCABD \uBB38\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n3. \uCC55\uD130
-    \uBCC4, \uCCAB \uCE35\uC740 \uC774\uC0C1 \uD604\uC0C1\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."
+  m_Text: '1. If an anomaly is present, choose the door on the left.
+
+    2. If there
+    is no anomaly, choose the door on the right.
+
+    3. The first floor of each
+    chapter contains no anomalies.'
+--- !u!114 &3936938287984034293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820231755468690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8968442740923433018
+  - rid: 8968442740923433022
+  references:
+    version: 2
+    RefIds:
+    - rid: 8968442740923433018
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114373427060449632}
+        m_TrackedProperties:
+          items:
+          - rid: 8968442740923433019
+        m_UpdateType: 0
+    - rid: 8968442740923433019
+      type: {class: StringTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_Text
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: '1. If an anomaly is present, choose the door on the left.
+
+            2.
+            If there is no anomaly, choose the door on the right.
+
+            3.
+            The first floor of each chapter contains no anomalies.'
+        - localeIdentifier:
+            m_Code: ko
+          value: "1. \uC774\uC0C1\uD604\uC0C1\uC774 \uC788\uB2E4\uBA74, \uC67C\uCABD
+            \uBB38\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n2. \uC774\uC0C1\uD604\uC0C1\uC774
+            \uC5C6\uB2E4\uBA74, \uC624\uB978\uCABD \uBB38\uC744 \uC120\uD0DD\uD558\uC138\uC694.\n3.
+            \uCC55\uD130 \uBCC4, \uCCAB \uCE35\uC740 \uC774\uC0C1 \uD604\uC0C1\uC774
+            \uC5C6\uC2B5\uB2C8\uB2E4."
+    - rid: 8968442740923433022
+      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 224372837884121566}
+        m_TrackedProperties:
+          items:
+          - rid: 8968442740923433023
+          - rid: 8968442740923433024
+    - rid: 8968442740923433023
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_LocalPosition.z
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: 2.8
+        - localeIdentifier:
+            m_Code: ko
+          value: -6.4
+    - rid: 8968442740923433024
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_AnchoredPosition.y
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: -49
+        - localeIdentifier:
+            m_Code: ko
+          value: -81.3

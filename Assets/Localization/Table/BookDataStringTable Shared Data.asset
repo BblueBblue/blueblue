@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: BookDataStringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: BookDataStringTable
+  m_TableCollectionNameGuidString: 0e1eb430fb7668243beccccafa381d9a
+  m_Entries:
+  - m_Id: 635322368
+    m_Key: CH1_Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 673071104
+    m_Key: CH1_BloodDripping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 677265408
+    m_Key: CH1_ClockChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 677265409
+    m_Key: CH1_ClothesColorChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459712
+    m_Key: CH1_ClothesDelete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459713
+    m_Key: CH1_ClothesDirty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459714
+    m_Key: CH1_ClothesFace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459715
+    m_Key: CH1_Dark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459716
+    m_Key: CH1_DiaryChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459717
+    m_Key: CH1_GhostHand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459718
+    m_Key: CH1_GhostOnBookcase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681459719
+    m_Key: CH1_PhotoFrameChange_Divorce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654016
+    m_Key: CH1_PhotoFrameChange_PlayerDelete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654017
+    m_Key: CH1_ToyChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654018
+    m_Key: CH1_ToyTrack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654019
+    m_Key: CH1_WaterRise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654020
+    m_Key: CH2_RainyProblem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654021
+    m_Key: CH2_BrokenBottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685654022
+    m_Key: CH2_Class_Dirty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848320
+    m_Key: CH2_ClothesColorChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848321
+    m_Key: CH2_ClothesDelete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848322
+    m_Key: CH2_ClothesDirty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848323
+    m_Key: CH2_ClothesFace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848324
+    m_Key: CH2_ComputerGlitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848325
+    m_Key: CH2_ComputerJumpScare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 689848326
+    m_Key: CH2_ComputerTurnOff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042624
+    m_Key: CH2_FallBody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042625
+    m_Key: CH2_Flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042626
+    m_Key: CH2_HangerBag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042627
+    m_Key: CH2_Hangman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042628
+    m_Key: CH2_Homework
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042629
+    m_Key: CH2_LightFlickering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042630
+    m_Key: CH2_PCRoom_ScreenChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042631
+    m_Key: CH2_PCRoom_Trash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042632
+    m_Key: CH2_SchoolBell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042633
+    m_Key: CH2_WindowOpening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042634
+    m_Key: CH3_Army_Cabinet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694042635
+    m_Key: CH3_Army_HairClipper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236928
+    m_Key: CH3_Army_Trumpet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236929
+    m_Key: CH3_Bug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236930
+    m_Key: CH3_ClothesColorChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236931
+    m_Key: CH3_ClothesDelete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698236932
+    m_Key: CH3_ClothesDirty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431232
+    m_Key: CH3_ClothesFace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431233
+    m_Key: CH3_Computer_BlueScreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431234
+    m_Key: CH3_Computer_Glitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431235
+    m_Key: CH3_Computer_Jumpscare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431236
+    m_Key: CH3_Computer_TurnOff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431237
+    m_Key: CH3_Phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431238
+    m_Key: CH3_PhotoChange_HappyFamily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431239
+    m_Key: CH3_Poor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702431240
+    m_Key: CH3_Store_Box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625536
+    m_Key: CH3_Store_Dirty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625537
+    m_Key: CH3_Suicide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625538
+    m_Key: CH3_Thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625539
+    m_Key: CH3_WindowOpening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625540
+    m_Key: CH4_BlueScreenProblem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625541
+    m_Key: CH4_ComputerGlitchProblem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706625542
+    m_Key: CH4_AddHorrorToy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 710819840
+    m_Key: CH4_Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 710819841
+    m_Key: CH4_ComputerJumpScare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014144
+    m_Key: CH4_ComputerTurnOff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014145
+    m_Key: CH4_EyeTrack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014146
+    m_Key: CH4_Phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014147
+    m_Key: CH4_PhotoFrameChange_DaddyGone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014148
+    m_Key: CH4_Suicide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014149
+    m_Key: CH4_Table_Dirty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014150
+    m_Key: CH4_Table_Retire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014151
+    m_Key: CH4_ToyChange_Message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715014152
+    m_Key: CH4_ToyFaceAway
+    m_Metadata:
+      m_Items: []
+  - m_Id: 719208448
+    m_Key: CH4_TV_Ghost
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8968442740923432966
+  references:
+    version: 2
+    RefIds:
+    - rid: 8968442740923432966
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1749304409803

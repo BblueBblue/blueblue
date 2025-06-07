@@ -15,6 +15,7 @@ namespace Book
     [CreateAssetMenu(menuName = "ScriptableObjects/BookData", fileName = "BookData")]
     public class BookScriptableObject : SerializedScriptableObject
     {
+        public string localizationTableName;
         public SortedDictionary<AnomalyType, List<PageScriptableObject>> pages;
 
 #if UNITY_EDITOR
