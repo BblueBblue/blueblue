@@ -2,6 +2,8 @@ using com.kleberswf.lib.core;
 using PlayerControl;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 using UnityEngine.Rendering;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -22,7 +24,7 @@ namespace UI
         [Header("SFX")] 
         [SerializeField] private Slider sfxSlider;
         [SerializeField] private Text sfxValueText;
-
+        
         [Space(3)]
         [Header("Sensitivity")]
         [SerializeField] private Slider mouseHorizontalSlider;
@@ -39,6 +41,9 @@ namespace UI
         [SerializeField] private float maxVerticalSensitivity = 200f;
         [SerializeField] private Text mouseVerticalValueText;
 
+        [Space(3)] [Header("Language")] 
+        [SerializeField] private Dropdown languageDropDown;
+        
         [Space(3)]
         [Header("Button")] 
         [SerializeField] private Button continueBtn;
@@ -101,6 +106,12 @@ namespace UI
             mouseVerticalSlider.onValueChanged.AddListener(OnVerticalSensitivityValueChanged);
             mouseVerticalSlider.onValueChanged.AddListener(value => OnSensitivityTextChanged(value,mouseVerticalValueText));
             
+            #endregion
+
+            #region Language
+
+            languageDropDown.value = GetCurrentLocaleIndex();
+
             #endregion
             
             #region Button
@@ -168,6 +179,42 @@ namespace UI
 
         #endregion
 
+        #region Language
+
+        private int GetCurrentLocaleIndex()
+        {
+            // 현재 선택된 로케일 가져오기
+            Locale currentLocale = LocalizationSettings.SelectedLocale;
+    
+            if (currentLocale == null)
+            {
+                Debug.LogWarning("현재 선택된 로케일이 없습니다.");
+                return 0;
+            }
+    
+            // 사용 가능한 로케일 리스트 가져오기
+            var availableLocales = LocalizationSettings.AvailableLocales.Locales;
+    
+            // 현재 로케일의 인덱스 찾기
+            for (int i = 0; i < availableLocales.Count; i++)
+            {
+                if (availableLocales[i] == currentLocale)
+                {
+                    return i;
+                }
+            }
+    
+            Debug.LogWarning("현재 로케일이 사용 가능한 로케일 리스트에서 찾을 수 없습니다.");
+            return 0;
+        }
+
+        public void SetLocaleIndex(int index)
+        {
+            var availableLocales = LocalizationSettings.AvailableLocales.Locales;
+            LocalizationSettings.Instance.SetSelectedLocale(availableLocales[index]);
+        }
+
+        #endregion
 
         private void SwitchCanvas()
         {

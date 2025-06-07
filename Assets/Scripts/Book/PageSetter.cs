@@ -28,20 +28,30 @@ namespace Book
         private GameObject inactiveCover;
 
         private LocalizedString descriptionLocalizedString;
+        private bool isInitialized = false;
         private bool isActivated = false;
+
+        private void OnDestroy()
+        {
+            if (isInitialized)
+            {
+                descriptionLocalizedString.StringChanged -= UpdateDescription;
+            }
+        }
 
         /// <summary>
         /// PageData를 기반으로 page 정보를 갱신
         /// </summary>
         /// <param name="pageData"></param>
         /// <param name="localizationTableName"></param>
-        public async void InitPage(PageScriptableObject pageData, string localizationTableName)
+        public void InitPage(PageScriptableObject pageData, string localizationTableName)
         {
             image.sprite = pageData.photo;
             descriptionLocalizedString = new LocalizedString(localizationTableName, pageData.descriptionKey);
             descriptionLocalizedString.StringChanged += UpdateDescription;
             
             text.text = GetHideString(descriptionLocalizedString.GetLocalizedString());
+            isInitialized = true;
         }
 
         /// <summary>

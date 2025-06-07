@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7479685009523156398}
   - component: {fileID: 8393746049834117129}
   - component: {fileID: 3111044471491883275}
+  - component: {fileID: 206480602484043600}
   m_Layer: 5
   m_Name: TXT_Indicate
   m_TagString: Untagged
@@ -243,6 +244,75 @@ MonoBehaviour:
   optionalScrambleMode: 0
   optionalShakeRandomnessMode: 0
   optionalString: 
+--- !u!114 &206480602484043600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2669972358377791347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8968442740923433010
+  references:
+    version: 2
+    RefIds:
+    - rid: 8968442740923433010
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 8393746049834117129}
+        m_TrackedProperties:
+          items:
+          - rid: 8968442740923433011
+          - rid: 8968442740923433012
+          - rid: 8968442740923433013
+        m_UpdateType: 0
+    - rid: 8968442740923433011
+      type: {class: StringTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_text
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: Press Any Key to Start
+        - localeIdentifier:
+            m_Code: ko
+          value: "\uC544\uBB34 \uD0A4\uB97C \uB20C\uB7EC \uC2DC\uC791\uD558\uC138\uC694"
+    - rid: 8968442740923433012
+      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontAsset
+        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+        - localeIdentifier:
+            m_Code: ko
+          value: {fileID: 11400000, guid: b64518769dbf50d47acde4f02446e43f, type: 2}
+    - rid: 8968442740923433013
+      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_sharedMaterial
+        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+        - localeIdentifier:
+            m_Code: ko
+          value: {fileID: -5309195119555250346, guid: b64518769dbf50d47acde4f02446e43f,
+            type: 2}
 --- !u!1 &6167349314474444502
 GameObject:
   m_ObjectHideFlags: 0
