@@ -66,7 +66,7 @@ public class AnomalyClearDataHandler : MonoBehaviour
         }
     }
 
-    private void SaveData()
+    public void SaveData()
     {
         try 
         {

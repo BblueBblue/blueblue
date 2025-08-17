@@ -289,6 +289,11 @@ namespace Anomaly
             currentMapIdx = randomIdx;
             return stages[stageIdx].problems[randomIdx];
         }
+
+        public void SaveGameData()
+        {
+            anomalyDataHandler.SaveData();
+        }
     }
 
 }
