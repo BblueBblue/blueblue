@@ -5,8 +5,10 @@ using System.IO;
 using Book;
 using Newtonsoft.Json;
 using Sirenix.OdinInspector;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.Events;
+using Task = System.Threading.Tasks.Task;
 
 public class AnomalyClearDataHandler : MonoBehaviour
 {
@@ -30,7 +32,7 @@ public class AnomalyClearDataHandler : MonoBehaviour
         LoadData();
     }
     
-    private void LoadData()
+    private async void LoadData()
     {
 #if UNITY_EDITOR
         if (forceUpdate)
@@ -40,6 +42,7 @@ public class AnomalyClearDataHandler : MonoBehaviour
             return;
         }
 #endif
+        await Task.Delay(1000);
         try
         {
             if (File.Exists(savePath))
@@ -66,7 +69,7 @@ public class AnomalyClearDataHandler : MonoBehaviour
         }
     }
 
-    private void SaveData()
+    public void SaveData()
     {
         try 
         {
