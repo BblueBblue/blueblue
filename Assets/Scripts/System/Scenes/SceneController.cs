@@ -23,17 +23,17 @@ namespace System.Scenes
         [Button]
         public void ResetScene(int idx)
         { 
-            var loader = GameObject.FindObjectOfType<AnomalyLoader>();
             
             UnityAction<Scene, LoadSceneMode> LoadMap = null;
             LoadMap = (scene, mode) =>
             {
+                var loader = GameObject.FindObjectOfType<AnomalyLoader>();
                 loader.SetAnomaly(idx);
                 SceneManager.sceneLoaded -= LoadMap;
             };
             SceneManager.sceneLoaded += LoadMap;
             
-            loader.SaveGameData();
+            FindObjectOfType<AnomalyLoader>().SaveGameData();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
